@@ -1,0 +1,42 @@
+{
+  "name": "backend-server-template",
+  "version": "1.0.0",
+  "description": "A template for Backend Server using NodeJS and Express",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AkshaySharma008/Backend-Server-Template.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "Backend",
+    "Express"
+  ],
+  "author": "Akshay Sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AkshaySharma008/Backend-Server-Template/issues"
+  },
+  "homepage": "https://github.com/AkshaySharma008/Backend-Server-Template#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "express-mongo-sanitize": "^2.1.0",
+    "express-rate-limit": "^5.2.6",
+    "hpp": "^0.2.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.9",
+    "nodemon": "^2.0.7",
+    "path": "^0.12.7",
+    "xss": "^1.0.9",
+    "xss-clean": "^0.1.1"
+  }
+}
