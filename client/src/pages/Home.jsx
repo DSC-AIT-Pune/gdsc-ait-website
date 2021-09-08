@@ -1,0 +1,1 @@
+// Home page, basically we use the reusable components here in pages.
