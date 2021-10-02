@@ -17,14 +17,23 @@
   margin: 0;
   padding: 0%;
   text-decoration: none;
+  /* width: 100%; */
 }
 .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 /* ##################################NavBar style ############################################## */
+
+.header-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .navbar_desktop {
   display: flex;
   height: 45px;
@@ -97,6 +106,7 @@
   flex-wrap: wrap;
   height: 90vh;
   width: 100%;
+  padding: 5%;
   display: flex;
   align-items: center;
   position: relative;
@@ -333,12 +343,12 @@ p {
 /* #################################Media Quary ############################################## */
 
 @media only screen and (max-width: 900px) {
-  .navbar_desktop {
+  /* .navbar_desktop {
     display: none;
   }
   .phone_navbar {
     display: flex;
-  }
+  } */
   .Title_heading {
     font-size: 24px;
     font-weight: 700;

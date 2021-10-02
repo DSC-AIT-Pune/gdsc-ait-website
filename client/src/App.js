@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import NavBar from "./components/Navbar";
 import insta from "./images/insta.png";
 import bg_svg from "./images/bg_svg.png";
+import Team from "./pages/Team";
 
 class App extends Component {
   render() {
@@ -15,7 +16,13 @@ class App extends Component {
           <img src={bg_svg} alt="" className="bg_svg" />
           <main className="container">
             <Switch>
-              <Route path="/" render={(props) => <Home />} />
+              <Route exact path="/">
+                <Home />
+              </Route>
+              {/* <Route component={} /> */}
+              <Route exact path="/Team_Members">
+                <Team />
+              </Route>
             </Switch>
           </main>
         </div>
