@@ -28,12 +28,10 @@
   margin-top: 20px;
 }
 .logo {
-  /* justify-self: flex-start; */
   height: 45px;
   width: 188px;
 }
 .Link {
-  /* margin-left: 54px; */
   color: black;
   font-weight: 550;
   font-size: 18px;
@@ -240,6 +238,84 @@ p {
   background-color: yellow;
 }
 
+/* 
+###################################SocialMedia########################################
+###################################SocialMedia######################################## */
+.SocialMediaContainer {
+  height: 100vh;
+  width: 100vw;
+  background: rgb(224, 247, 255);
+  background: linear-gradient(
+    rgba(224, 247, 255, 0.08476894175639005) 0%,
+    rgba(224, 247, 255, 1) 64%
+  );
+ 
+}
+
+.SocialMedia {
+  height: 100%;
+  width: 100%;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  color: white;
+}
+
+.map {
+  height: 70%;
+  width: 75%;
+  color: black;
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.map img {
+  height: 70%;
+  width: 80%;
+  margin-top: 5%;
+}
+.socialLinks {
+  height: auto;
+  width: 100%;
+  background-color: #17212b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.socialDetails {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 75%;
+}
+.socialAddesss {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.s1 {
+  min-width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 4px;
+}
+.s4 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2%;
+  grid-column: 1/5;
+  grid-row: 4/5;
+}
+
 /* #################################Media Quary ############################################## */
 /* #################################Media Quary ############################################## */
 /* #################################Media Quary ############################################## */
@@ -294,5 +370,11 @@ p {
   .discription_container {
     justify-content: flex-start;
     /* align-items: center; */
+  }
+  .SocialMediaContainer {
+    height: 100vh;
+    width: 100vw;
+    font-size: 12px;
+    /* background-color: aqua; */
   }
 }
