@@ -225,3 +225,85 @@
 .member .color span:nth-child(4) {
   background-image: url(./team-images/instagram.svg);
 }
+
+/* -----------------------------EVENTS---------------------------------------- */
+
+.fixed-bike {
+  display: flex;
+  padding: 25px;
+  line-height: 1.6;
+  flex: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10ex;
+  flex-direction: row-reverse;
+  max-height: 800vw;
+  max-width: 100%;
+}
+
+.content {
+  font-size: 1rem;
+  padding: 5px;
+  margin: 20px 0 0 50px;
+  width: 100%;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: 85ex;
+}
+
+.subtitle {
+  position: relative;
+  flex-basis: 460px;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.content p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.img-section1 {
+  max-width: 45%;
+  max-height: 450px;
+  border-radius: 4px;
+  box-shadow: 10px 10px 10px rgb(0 0 0 / 20%), 0 0 0 rgb(0 0 0 / 29%);
+}
+
+.content ul {
+  padding: 20px;
+}
+
+@media (max-width: 620px) {
+  .fixed-bike {
+    flex-direction: column;
+    max-width: 100%;
+    height: 200vw !important;
+    margin-top: 0;
+  }
+
+  .content {
+    padding: 0;
+    margin: 0 auto;
+    max-height: 150px;
+    position: relative;
+    top: -100px;
+  }
+
+  .content p {
+    font-size: 3vw;
+    max-height: 100vw;
+    margin: 0 0 5px 0;
+    padding: 10px;
+  }
+
+  .img-section1 {
+    max-width: 85%;
+    margin-top: 35%;
+  }
+}
+
+/* --------------------------------Event-Ended----------------------------------------------- */

@@ -6,6 +6,7 @@ import NavBar from "./components/Navbar";
 import insta from "./images/insta.png";
 import bg_svg from "./images/bg_svg.png";
 import Team from "./pages/Team";
+import Events from "./pages/Events";
 
 class App extends Component {
   render() {
@@ -19,9 +20,11 @@ class App extends Component {
               <Route exact path="/">
                 <Home />
               </Route>
-              {/* <Route component={} /> */}
               <Route exact path="/Team_Members">
                 <Team />
+              </Route>
+              <Route exact path="/Schedule">
+                <Events />
               </Route>
             </Switch>
           </main>
