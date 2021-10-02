@@ -1,7 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,700;1,200;1,600&display=swap");
+/* @font-face {
+  font-family: "GoogleSans";
+  src: url("./fonts/GoogleSans-Medium-v1.27.ttf") format(truetype);
+} */
+
 .body {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  /* font-family: "Nunito", sans-serif; */
+  font-family: "GoogleSans";
   align-items: center;
   color: black;
 }
@@ -211,7 +219,7 @@ p {
 .techlogo {
   position: absolute;
   top: -43px;
-  background-color: red;
+  background-color: #ea4335;
   height: 80px;
   width: 80px;
   border-radius: 50%;
@@ -225,7 +233,7 @@ p {
   height: 35%;
 }
 .t2 {
-  background-color: blue;
+  background-color: #4285f4;
 }
 .t3 {
   background-color: forestgreen;
@@ -249,7 +257,6 @@ p {
     rgba(224, 247, 255, 0.08476894175639005) 0%,
     rgba(224, 247, 255, 1) 64%
   );
- 
 }
 
 .SocialMedia {
@@ -260,7 +267,7 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
+
   color: white;
 }
 
@@ -268,7 +275,7 @@ p {
   height: 70%;
   width: 75%;
   color: black;
- 
+
   display: flex;
   justify-content: center;
   align-items: center;
