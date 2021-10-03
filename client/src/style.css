@@ -355,12 +355,12 @@ button:hover {
 /* #################################Media Quary ############################################## */
 
 @media only screen and (max-width: 900px) {
-  .navbar_desktop {
+  /* .navbar_desktop {
     display: none;
   }
   .phone_navbar {
     display: flex;
-  }
+  } */
   .Title_heading {
     font-size: 24px;
     font-weight: 700;
