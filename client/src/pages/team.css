@@ -1,0 +1,336 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,700;1,200;1,600&display=swap");
+
+.team {
+  height: auto;
+  font-family: "Nunito";
+  width: 100%;
+}
+
+.member {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.headings {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 28px;
+}
+
+.center-grid {
+  padding: 5px;
+}
+
+.member .Nav {
+  text-align: center;
+  color: black;
+  height: 5%;
+  padding-top: 10px;
+  background: linear-gradient(
+    270deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(215, 213, 213, 1) 0%,
+    rgba(242, 242, 242, 1) 100%
+  );
+}
+
+.member .container {
+  position: relative;
+  max-width: 220px;
+  margin: 28px 30px;
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 200px;
+}
+
+.member .container .card {
+  position: relative;
+  height: 250px;
+  width: 90%;
+  background: white;
+  overflow: hidden;
+  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.25);
+  border-radius: 22px;
+}
+
+.member .container .card:hover {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.member .container .card:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* .container .card:hover:before {
+  clip-path: circle(71.1% at 50% 0);
+} */
+
+.member .container .card:after {
+  position: absolute;
+  top: 30%;
+  left: -20%;
+  font-size: 8em;
+  font-weight: 800;
+  font-style: italic;
+  color: rgba(255, 255, 25, 0.05);
+}
+
+.member .circular--square {
+  border: 2px;
+  opacity: 1;
+  border-radius: 50%;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}
+
+.member .container .card .imgBx {
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+  z-index: 10000;
+  width: 80%;
+  height: 60px;
+  transition: 0.5s;
+}
+/* 
+.container .card:hover .imgBx {
+  top: 20%;
+  transform: translateY(20%);
+} */
+
+.member .container .card .imgBx img {
+  position: absolute;
+  top: 50%;
+  left: 65%;
+  transform: translate(-40%, -60%);
+}
+
+.member .container .card .contentBx {
+  position: absolute;
+  padding: 0px;
+  top: 60%;
+  width: 70%;
+  word-wrap: break-word;
+  text-align: center;
+  padding-left: 25%;
+  z-index: 10;
+}
+
+/* .container .card:hover .contentBx {
+  height: 96px;
+} */
+
+.member .container .card .contentBx h2 {
+  position: relative;
+  font-size: 16px;
+  line-height: 1.3;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: black;
+}
+
+.member .container .card .contentBx .size {
+  padding: 3px 0;
+}
+
+.member .left {
+  width: 20%;
+  padding: 25px 0;
+}
+
+.member .color {
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
+}
+
+.member .color h3 {
+  color: black;
+  font-weight: 300;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: -2px -1px 2px rgba(0, 0, 0, 0.6);
+}
+
+/* .container .card:hover .contentBx .size {
+  opacity: 1;
+  visibility: visible;
+  transition-delay: 0.5s;
+} */
+
+/* .container .card:hover .contentBx .color {
+  opacity: 1;
+  visibility: visible;
+  transition-delay: 0.4s;
+} */
+
+.member .container .card .contentBx .size h3 {
+  color: black;
+  font-weight: 300;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* .container .card .contentBx .size span {
+  width: 26px;
+  height: 26px;
+  text-align: center;
+  line-height: 26px;
+  font-size: 14px;
+  display: inline-block;
+  color: #111;
+  background: #fff;
+  margin: 0 5px;
+  transition: 0.5s;
+  color: #111;
+  border-radius: 4px;
+  cursor: pointer;
+} */
+
+/* .container .card .contentBx .size span:hover {
+	background-color: #9bdc28;
+} */
+
+.member .color span {
+  width: 25px;
+  min-height: 25px;
+  background: url(./team-images/linkdin.svg);
+  cursor: pointer;
+  margin-bottom: 25px;
+}
+
+.member .smi {
+  visibility: hidden;
+}
+
+.member .color span:nth-child(2) {
+  background: url(./team-images/facebook.svg);
+}
+
+.member .color span:nth-child(3) {
+  background-image: url(./team-images/github.svg);
+}
+
+.member .color span:nth-child(4) {
+  background-image: url(./team-images/instagram.svg);
+}
+
+/* -----------------------------EVENTS---------------------------------------- */
+
+.fixed-bike {
+  display: flex;
+  padding: 25px;
+  line-height: 1.6;
+  flex: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10ex;
+  flex-direction: row-reverse;
+  max-height: 800vw;
+  max-width: 100%;
+}
+
+.content {
+  font-size: 1rem;
+  padding: 5px;
+  margin: 20px 0 0 50px;
+  width: 100%;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: 85ex;
+}
+
+.subtitle {
+  position: relative;
+  flex-basis: 460px;
+  font-size: 1.5rem;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.content p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.img-section1 {
+  max-width: 45%;
+  max-height: 450px;
+  border-radius: 4px;
+  box-shadow: 10px 10px 10px rgb(0 0 0 / 20%), 0 0 0 rgb(0 0 0 / 29%);
+  cursor: pointer;
+}
+
+.content ul {
+  padding: 20px;
+}
+
+@media (max-width: 620px) {
+  .fixed-bike {
+    flex-direction: column;
+    max-width: 100%;
+    height: 200vw !important;
+    margin-top: 0;
+  }
+
+  .content {
+    padding: 0;
+    margin: 0 auto;
+    max-height: 150px;
+    position: relative;
+    top: -100px;
+  }
+
+  .content p {
+    font-size: 3vw;
+    max-height: 100vw;
+    margin: 0 0 5px 0;
+    padding: 10px;
+  }
+
+  .img-section1 {
+    max-width: 85%;
+    margin-top: 35%;
+  }
+}
+
+/* --------------------------------HacktoberFest----------------------------------------------- */
+
+.hack-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+  flex-direction: column;
+}
+
+.hack-page img {
+  width: 70%;
+}
+
+.hack-page h3 {
+  padding: 5% 5% 2% 5%;
+  line-height: 1.625;
+  font-size: 20px;
+  color: #b9442f;
+  font-family: monospace;
+}
+
+.contributers {
+  padding: 10px;
+  width: 80%;
+}

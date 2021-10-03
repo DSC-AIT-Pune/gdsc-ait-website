@@ -1,0 +1,396 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,700;1,200;1,600&display=swap");
+/* @font-face {
+  font-family: "GoogleSans";
+  src: url("./fonts/GoogleSans-Medium-v1.27.ttf") format(truetype);
+} */
+
+.body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* font-family: "Nunito", sans-serif; */
+  font-family: "GoogleSans";
+  align-items: center;
+  color: black;
+}
+* {
+  margin: 0;
+  padding: 0%;
+  text-decoration: none;
+  /* width: 100%; */
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+/* ##################################NavBar style ############################################## */
+
+.header-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar_desktop {
+  display: flex;
+  height: 45px;
+  width: 75vw;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  margin-top: 20px;
+}
+.logo {
+  height: 45px;
+  width: 188px;
+}
+.Link {
+  color: black;
+  font-weight: 550;
+  font-size: 18px;
+}
+.Nav_links {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}
+.bg_svg {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 20vw;
+  width: 30vw;
+}
+
+/* ##########################phone Navbar ################################# */
+/* ##########################phone Navbar ################################# */
+/* ##########################phone Navbar ################################# */
+/* ##########################phone Navbar ################################# */
+/* ##########################phone Navbar ################################# */
+
+.phone_navbar {
+  position: fixed;
+  bottom: 0%;
+  left: 0px;
+  display: none;
+  height: auto;
+  width: 100%;
+  justify-content: space-around;
+  /* align-items: center; */
+  border-top: 1px solid rgb(146, 143, 143);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(241, 237, 237);
+}
+
+/* ######################################################################################################### */
+/* #########################################    Home Page style    ################################################ */
+.frontPage {
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  height: auto;
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.welcome {
+  /* background-color: aqua; */
+  display: flex;
+  height: 90vh;
+  width: 100%;
+  padding: 5%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.Title_heading {
+  font-size: 48px;
+  font-weight: 700;
+}
+.content {
+  width: 50%;
+  height: auto;
+}
+p {
+  line-height: 30px;
+}
+.Member_button {
+  height: 60px;
+  width: 45%;
+  color: white;
+  background-color: #4285f4;
+  border: none;
+  border-radius: 5px;
+  font-size: 22px;
+  margin-top: 50px;
+}
+.Discord_button {
+  display: inline-block;
+  height: 60px;
+  width: 45%;
+  color: white;
+  background-color: #717171;
+  border: none;
+  margin-left: 15px;
+  border-radius: 5px;
+  font-size: 22px;
+  margin-top: 50px;
+  padding: 3px auto;
+}
+.HomePage_svg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: 50%;
+}
+.svg {
+  width: 85%;
+  aspect-ratio: 1/1;
+}
+
+.social_Media_logo {
+  height: 25px;
+  aspect-ratio: 1/1;
+  margin-right: 30px;
+  margin-top: 70px;
+}
+.rotate {
+  position: absolute;
+  top: 40%;
+  left: -50px;
+  animation: rotated 2s liner infinite;
+}
+.rotate2 {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  animation: rotated 2s liner infinite;
+}
+@keyframes rotated {
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+/* ##############################discription page ############################################## */
+/* ##############################discription page ############################################## */
+/* ##############################discription page ############################################## */
+
+.discription_container {
+  height: 100vh;
+  width: 100%;
+  /* margin-top: 100px; */
+  /* background-color: black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+.discription_container img {
+  width: 50%;
+}
+.tecnolgyContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* background-color: black; */
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+.discription_container p {
+  margin: 20px 0px;
+  margin-right: 30px;
+  line-height: 40px;
+}
+.techCard {
+  height: 80px;
+  width: 250px;
+  /* background-color: yellow; */
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0px 0px 10px gray;
+  padding-bottom: 1%;
+  margin: 50px auto;
+  border-radius: 10px;
+}
+.techlogo {
+  position: absolute;
+  top: -43px;
+  background-color: #ea4335;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  transform-origin: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.techlogo img {
+  width: 35%;
+  height: 35%;
+}
+.t2 {
+  background-color: #4285f4;
+}
+.t3 {
+  background-color: forestgreen;
+}
+.t3 img {
+  height: 50%;
+  width: 50%;
+}
+.t4 {
+  background-color: yellow;
+}
+
+/* 
+###################################SocialMedia########################################
+###################################SocialMedia######################################## */
+.SocialMediaContainer {
+  height: 100vh;
+  width: 100vw;
+  background: rgb(224, 247, 255);
+  background: linear-gradient(
+    rgba(224, 247, 255, 0.08476894175639005) 0%,
+    rgba(224, 247, 255, 1) 64%
+  );
+}
+
+.SocialMedia {
+  height: 100%;
+  width: 100%;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+}
+
+.map {
+  height: 70%;
+  width: 75%;
+  color: black;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.map img {
+  height: 70%;
+  width: 80%;
+  margin-top: 5%;
+}
+.socialLinks {
+  height: auto;
+  width: 100%;
+  background-color: #17212b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.socialDetails {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 75%;
+}
+.socialAddesss {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.s1 {
+  min-width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 4px;
+}
+.s4 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2%;
+  grid-column: 1/5;
+  grid-row: 4/5;
+}
+
+/* #################################Media Quary ############################################## */
+/* #################################Media Quary ############################################## */
+/* #################################Media Quary ############################################## */
+/* #################################Media Quary ############################################## */
+/* #################################Media Quary ############################################## */
+/* #################################Media Quary ############################################## */
+/* #################################Media Quary ############################################## */
+/* #################################Media Quary ############################################## */
+
+@media only screen and (max-width: 900px) {
+  /* .navbar_desktop {
+    display: none;
+  }
+  .phone_navbar {
+    display: flex;
+  } */
+  .Title_heading {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .welcome {
+    flex-direction: column-reverse;
+    width: 95vw;
+    justify-content: center;
+  }
+  p {
+    line-height: 20px;
+  }
+  .content {
+    width: 85%;
+    display: block;
+  }
+  .Member_button {
+    height: 40px;
+    font-size: 12px;
+    margin-top: 30px;
+  }
+  .Discord_button {
+    font-size: 12px;
+    margin-top: 30px;
+    height: 40px;
+  }
+  .social_Media_logo {
+    height: 20px;
+    margin-right: 10px;
+    margin-top: 35px;
+  }
+  .svg {
+    width: 100%;
+    aspect-ratio: 1/1;
+  }
+  .discription_container {
+    justify-content: flex-start;
+    /* align-items: center; */
+  }
+  .SocialMediaContainer {
+    height: 100vh;
+    width: 100vw;
+    font-size: 12px;
+    /* background-color: aqua; */
+  }
+}
