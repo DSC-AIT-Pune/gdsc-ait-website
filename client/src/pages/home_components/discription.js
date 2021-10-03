@@ -12,7 +12,6 @@ const Discription = () => {
   });
   return (
     <div className="discription_container">
-    
       <img src={dsclogo} alt="dscLogo" />
       <p>{state.breif}</p>
       <h3>Technology</h3>
@@ -30,13 +29,13 @@ const Discription = () => {
           <div className="techlogo t2">
             <img src={WebLogo} alt="" />
           </div>
-          <h3>Web Development</h3>
+          <h3>Google Cloud</h3>
         </div>
         <div className="techCard">
           <div className="techlogo t3">
             <img src={GcloudLogo} alt="" />
           </div>
-          <h3>Google cloud</h3>
+          <h3>Web Development</h3>
         </div>
         <div className="techCard ">
           <div className="techlogo t4">
@@ -44,11 +43,17 @@ const Discription = () => {
           </div>
           <h3>Android Development</h3>
         </div>
-        <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      </p>
+        <br />
+
+       
       </div>
-      
+        
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod
+        </p>
+
+        
     </div>
   );
 };

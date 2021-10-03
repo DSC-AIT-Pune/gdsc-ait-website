@@ -1,7 +1,12 @@
 {
-  "name": "react-app-skeleton",
+  "name": "gdsc-ait-website",
   "version": "0.1.0",
+  "description": "An offical repository for the GDSC AIT website",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DSC-AIT-Pune/gdsc-ait-website.git"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",

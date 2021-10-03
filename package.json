@@ -1,7 +1,7 @@
 {
-  "name": "backend-server-template",
-  "version": "1.0.0",
-  "description": "A template for Backend Server using NodeJS and Express",
+  "name": "gdsc-ait-website",
+  "version": "0.1.0",
+  "description": "An offical repository for the GDSC AIT website",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,19 +9,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AkshaySharma008/Backend-Server-Template.git"
+    "url": "https://github.com/DSC-AIT-Pune/gdsc-ait-website.git"
   },
   "keywords": [
     "NodeJS",
     "Backend",
-    "Express"
+    "Express",
+    "ReactJS"
   ],
-  "author": "Akshay Sharma",
+  "author": "GDSC AIT",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AkshaySharma008/Backend-Server-Template/issues"
+    "url": "https://github.com/DSC-AIT-Pune/gdsc-ait-website/issues"
   },
-  "homepage": "https://github.com/AkshaySharma008/Backend-Server-Template#readme",
+  "homepage": "https://github.com/DSC-AIT-Pune/gdsc-ait-website#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "colors": "^1.4.0",

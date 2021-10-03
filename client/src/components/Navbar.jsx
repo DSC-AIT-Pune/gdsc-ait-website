@@ -12,16 +12,16 @@ import contact_Us_phone_logo from "../images/contact_Us_phone_logo.png";
 
 const NavBar = (props) => {
   return (
-    <nav>
+    <nav className="header-nav">
       <div className="navbar_desktop">
         <img src={logo} alt="ffdf" className="logo" />
         <div className="Nav_links">
           <Link to="/" className="Link">
             Home
           </Link>
-          <Link to="#AboutPage" className="Link">
+          {/* <Link to="#AboutPage" className="Link">
             About
-          </Link>
+          </Link> */}
           <Link to="/Schedule" className="Link">
             {" "}
             Events
@@ -30,7 +30,7 @@ const NavBar = (props) => {
             Projects
           </Link>
           <Link to="/Team_Members" className="Link">
-            Team
+            Core Team
           </Link>
         </div>
       </div>

@@ -9,7 +9,7 @@
   justify-content: center;
   flex-direction: column;
   font-family: "Nunito", sans-serif;
-  font-family: "GoogleSans";
+  /* font-family: "GoogleSans"; */
   align-items: center;
   color: black;
 }
@@ -17,14 +17,24 @@
   margin: 0;
   padding: 0%;
   text-decoration: none;
+  /* width: 100%; */
 }
 .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 /* ##################################NavBar style ############################################## */
+
+.header-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99;
+}
+
 .navbar_desktop {
   display: flex;
   height: 45px;
@@ -36,8 +46,8 @@
   margin-top: 20px;
 }
 .logo {
-  height: 45px;
-  width: 188px;
+  height: 40px;
+  width: 160px;
 }
 .Link {
   color: black;
@@ -94,11 +104,13 @@
 .welcome {
   /* background-color: aqua; */
   display: flex;
-  flex-wrap: wrap;
   height: 90vh;
   width: 100%;
+  padding: 5%;
+  padding-left: 0px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   position: relative;
 }
 .Title_heading {
@@ -108,31 +120,34 @@
 .content {
   width: 50%;
   height: auto;
+  max-height: 100%;
+  margin-left: 20px !important;
 }
 p {
   line-height: 30px;
 }
 .Member_button {
-  height: 60px;
-  width: 45%;
+  height: 53px;
+  width: 43%;
   color: white;
-  background-color: #4285f4;
+  background-color: #717171;
+
   border: none;
   border-radius: 5px;
-  font-size: 22px;
-  margin-top: 50px;
+  font-size: 20px;
+  margin-top: 40px;
 }
 .Discord_button {
   display: inline-block;
-  height: 60px;
-  width: 45%;
+  height: 53px;
+  width: 43%;
   color: white;
-  background-color: #717171;
+  background-color: #4285f4;
   border: none;
   margin-left: 15px;
   border-radius: 5px;
-  font-size: 22px;
-  margin-top: 50px;
+  font-size: 20px;
+  margin-top: 40px;
   padding: 3px auto;
 }
 .HomePage_svg {
@@ -151,7 +166,7 @@ p {
   height: 25px;
   aspect-ratio: 1/1;
   margin-right: 30px;
-  margin-top: 70px;
+  margin-top: 50px;
 }
 .rotate {
   position: absolute;
@@ -185,6 +200,7 @@ p {
   justify-content: center;
   /* align-items: center; */
 }
+
 .discription_container img {
   width: 50%;
 }
@@ -198,13 +214,12 @@ p {
   padding: 20px;
 }
 .discription_container p {
-  margin: 20px 0px;
   margin-right: 30px;
   line-height: 40px;
 }
 .techCard {
   height: 80px;
-  width: 250px;
+  width: 260px;
   /* background-color: yellow; */
   position: relative;
   display: flex;
@@ -236,14 +251,15 @@ p {
   background-color: #4285f4;
 }
 .t3 {
-  background-color: forestgreen;
+  background-color:#FBBC04;
+  
 }
 .t3 img {
   height: 50%;
   width: 50%;
 }
 .t4 {
-  background-color: yellow;
+  background-color: forestgreen;
 }
 
 /* 
@@ -323,6 +339,12 @@ p {
   grid-row: 4/5;
 }
 
+/* ####################button############################################### */
+/* ####################button############################################### */
+button:hover {
+  cursor: pointer;
+}
+
 /* #################################Media Quary ############################################## */
 /* #################################Media Quary ############################################## */
 /* #################################Media Quary ############################################## */
@@ -344,7 +366,10 @@ p {
     font-weight: 700;
   }
   .welcome {
+    display: flex;
     flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: space-between;
     width: 95vw;
     justify-content: center;
   }
@@ -353,7 +378,10 @@ p {
   }
   .content {
     width: 85%;
-    display: block;
+    /* display: block; */
+  }
+  .HomePage_svg {
+    margin-bottom: 100px;
   }
   .Member_button {
     height: 40px;
