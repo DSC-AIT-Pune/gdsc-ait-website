@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import map from "../../images/Map.svg";
+import map from "../../styles/images/Map.svg";
 import insta from "./disImg/insta.png";
 import Github from "./disImg/Github.png";
 import facebook from "./disImg/facebook.png";
@@ -29,7 +29,7 @@ const Social = () => {
           <h1>GDSC AIT</h1>
           <div className="socialAddesss">
             <div className="s1">
-              <p>contact</p>
+              <p>Contact</p>
               <p>+91-9483958384</p>
               <p>dsc.aitpune@gmail.com</p>
             </div>

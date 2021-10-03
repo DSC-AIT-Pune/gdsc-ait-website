@@ -1,6 +1,6 @@
 import React from "react";
-import "./team.css";
-import hacktober from "./team-images/hacktober.jpg";
+import "../styles/team.css";
+import hacktober from "../styles/team-images/hacktober.jpg";
 import { useHistory } from "react-router-dom";
 
 function Events() {
@@ -13,7 +13,7 @@ function Events() {
           <h2
             className="subtitle"
             onClick={() => {
-              history.push("/HacktoberFest");
+              history.push("/events/HacktoberFest2021");
             }}
           >
             HACKTOBERFEST NO. 08!
@@ -39,7 +39,7 @@ function Events() {
         </div>
         <img
           onClick={() => {
-            history.push("/HacktoberFest");
+            history.push("/events/HacktoberFest2021");
           }}
           className="img-section1"
           src={hacktober}

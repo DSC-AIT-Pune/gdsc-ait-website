@@ -1,11 +1,12 @@
 import React from "react";
-import team_mem from "./team-images/profile.svg";
-import "./team.css";
+import "../styles/team.css";
 
 function ContributorGrid(props) {
   return (
     <div className="container">
-      <div className="card"></div>
+      <div className="card">
+          ...
+      </div>
     </div>
   );
 }
