@@ -256,6 +256,7 @@
   flex-basis: 460px;
   font-size: 1.5rem;
   font-weight: 900;
+  cursor: pointer;
 }
 
 .content p {
@@ -271,6 +272,7 @@
   max-height: 450px;
   border-radius: 4px;
   box-shadow: 10px 10px 10px rgb(0 0 0 / 20%), 0 0 0 rgb(0 0 0 / 29%);
+  cursor: pointer;
 }
 
 .content ul {
@@ -306,4 +308,29 @@
   }
 }
 
-/* --------------------------------Event-Ended----------------------------------------------- */
+/* --------------------------------HacktoberFest----------------------------------------------- */
+
+.hack-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+  flex-direction: column;
+}
+
+.hack-page img {
+  width: 70%;
+}
+
+.hack-page h3 {
+  padding: 5% 5% 2% 5%;
+  line-height: 1.625;
+  font-size: 20px;
+  color: #b9442f;
+  font-family: monospace;
+}
+
+.contributers {
+  padding: 10px;
+  width: 80%;
+}

@@ -7,6 +7,7 @@ import insta from "./images/insta.png";
 import bg_svg from "./images/bg_svg.png";
 import Team from "./pages/Team";
 import Events from "./pages/Events";
+import HacktoberFest from "./pages/HacktoberFest";
 
 class App extends Component {
   render() {
@@ -25,6 +26,9 @@ class App extends Component {
               </Route>
               <Route exact path="/Schedule">
                 <Events />
+              </Route>
+              <Route exact path="/HacktoberFest">
+                <HacktoberFest />
               </Route>
             </Switch>
           </main>

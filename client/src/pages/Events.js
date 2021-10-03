@@ -1,13 +1,23 @@
 import React from "react";
 import "./team.css";
 import hacktober from "./team-images/hacktober.jpg";
+import { useHistory } from "react-router-dom";
 
 function Events() {
+  let history = useHistory();
+
   return (
     <div>
       <section className="fixed-bike">
         <div className="content">
-          <h2 className="subtitle">HACKTOBERFEST NO. 08!</h2>
+          <h2
+            className="subtitle"
+            onClick={() => {
+              history.push("/HacktoberFest");
+            }}
+          >
+            HACKTOBERFEST NO. 08!
+          </h2>
           <p>
             Hacktoberfest, in its 8th year, is a month-long celebration of open
             source software run by DigitalOcean. During the month of October, we
@@ -27,7 +37,14 @@ function Events() {
             </ul>
           </p>
         </div>
-        <img className="img-section1" src={hacktober} alt="HacktoberFest'21" />
+        <img
+          onClick={() => {
+            history.push("/HacktoberFest");
+          }}
+          className="img-section1"
+          src={hacktober}
+          alt="HacktoberFest'21"
+        />
       </section>
     </div>
   );

@@ -103,7 +103,6 @@
 .welcome {
   /* background-color: aqua; */
   display: flex;
-  flex-wrap: wrap;
   height: 90vh;
   width: 100%;
   padding: 5%;
