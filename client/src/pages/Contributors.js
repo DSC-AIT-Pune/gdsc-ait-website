@@ -47,6 +47,12 @@ function Contributors() {
         imgUrl:
           "https://avatars.githubusercontent.com/u/32845547",
       },
+      {
+        name: "Prince Harshwardhan",
+        info: "",
+        imgUrl:
+          "https://avatars.githubusercontent.com/u/76548962",
+      },
     ],
   };
   //----------------------TEST TEAM DATA-------------------------
