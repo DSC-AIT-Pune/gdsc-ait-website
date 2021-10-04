@@ -53,6 +53,12 @@ function Contributors() {
         imgUrl:
           "https://avatars.githubusercontent.com/u/76548962",
       },
+      {
+        name: "Mahesh",
+        info: "Happy to start HacktoberFest'21",
+        imgUrl:
+          "https://cdn-icons-png.flaticon.com/512/168/168726.png",
+      },
     ],
   };
   //----------------------TEST TEAM DATA-------------------------
