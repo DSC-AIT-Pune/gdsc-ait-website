@@ -59,6 +59,12 @@ function Contributors() {
         imgUrl:
           "https://cdn-icons-png.flaticon.com/512/168/168726.png",
       },
+      {
+        name: "Abhinab ",
+        info: "Happy to start HacktoberFest'21",
+        imgUrl:
+          "https://avatars.githubusercontent.com/u/73732246",
+      }
     ],
   };
   //----------------------TEST TEAM DATA-------------------------
