@@ -70,6 +70,12 @@ function Contributors() {
         info: "Hello there!!",
         imgUrl:
           "https://avatars.githubusercontent.com/u/76423625?v=4",
+      },
+      {
+        name: "Mohit",
+        info: "Hello there!!",
+        imgUrl:
+          "https://avatars.githubusercontent.com/u/90604050?v=4",
       }
     ],
   };
