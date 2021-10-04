@@ -64,6 +64,12 @@ function Contributors() {
         info: "God here!!",
         imgUrl:
           "https://avatars.githubusercontent.com/u/73732246",
+      },
+      {
+        name: "Swaraj",
+        info: "Hello there!!",
+        imgUrl:
+          "https://avatars.githubusercontent.com/u/76423625?v=4",
       }
     ],
   };
