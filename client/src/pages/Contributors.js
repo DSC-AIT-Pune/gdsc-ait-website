@@ -35,6 +35,12 @@ function Contributors() {
         imgUrl:
           "https://cdn-icons-png.flaticon.com/512/168/168726.png",
       },
+      {
+        name: "Bhavana",
+        info: "",
+        imgUrl:
+          "https://cdn-icons-png.flaticon.com/512/168/168726.png",
+      },
     ],
   };
   //----------------------TEST TEAM DATA-------------------------
