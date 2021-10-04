@@ -61,7 +61,7 @@ function Contributors() {
       },
       {
         name: "Abhinab ",
-        info: "Happy to start HacktoberFest'21",
+        info: "God here!!",
         imgUrl:
           "https://avatars.githubusercontent.com/u/73732246",
       }
