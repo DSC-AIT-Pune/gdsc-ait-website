@@ -95,6 +95,12 @@ function Contributors() {
         info: "Hello there!!",
         imgUrl:
           "https://avatars.githubusercontent.com/u/73770830?v=4",
+      },
+      {
+        name: "Sayanya",
+        info: "Hello there!!",
+        imgUrl:
+          "https://avatars.githubusercontent.com/u/76493885?v=4",
       }
     ],
   };
