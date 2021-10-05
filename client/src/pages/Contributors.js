@@ -24,7 +24,15 @@ function Contributors() {
           "https://cdn-icons-png.flaticon.com/512/168/168726.png",
       },
       {
+
         name: "Chandresh Singh",
+        info: "",
+        imgUrl:
+          "https://cdn-icons-png.flaticon.com/512/168/168726.png",
+      },
+      {
+
+        name: "Shantanu Kumar Kar",
         info: "",
         imgUrl:
           "https://cdn-icons-png.flaticon.com/512/168/168726.png",
