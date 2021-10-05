@@ -52,7 +52,42 @@ function Contributors() {
         info: "",
         imgUrl:
           "https://cdn-icons-png.flaticon.com/512/168/168726.png",
+      },{
+        name: "Prince Harshwardhan",
+        info: "",
+        imgUrl:
+          "https://avatars.githubusercontent.com/u/76548962",
       },
+      {
+        name: "Mahesh",
+        info: "Happy to start HacktoberFest'21",
+        imgUrl:
+          "https://cdn-icons-png.flaticon.com/512/168/168726.png",
+      },
+      {
+        name: "Abhinab ",
+        info: "God here!!",
+        imgUrl:
+          "https://avatars.githubusercontent.com/u/73732246",
+      },
+      {
+        name: "Swaraj",
+        info: "Hello there!!",
+        imgUrl:
+          "https://avatars.githubusercontent.com/u/76423625?v=4",
+      },
+      {
+        name: "Mohit",
+        info: "Hello there!!",
+        imgUrl:
+          "https://avatars.githubusercontent.com/u/90604050?v=4",
+      },
+       {
+        name: "Gaurav",
+        info: "Hello there!!",
+        imgUrl:
+          "https://avatars.githubusercontent.com/u/73770830?v=4",
+      }
     ],
   };
   //----------------------TEST TEAM DATA-------------------------
