@@ -50,8 +50,8 @@ function Contributors() {
           "https://cdn-icons-png.flaticon.com/512/168/168726.png",
       },
       {
-        name: "Tarun",
-        info: "",
+        name: "Tarun Mishra",
+        info: "Hello from Codestein!",
         imgUrl:
           "https://avatars.githubusercontent.com/u/32845547",
       },
@@ -94,7 +94,7 @@ function Contributors() {
         name: "Gaurav",
         info: "Hello there!!",
         imgUrl:
-          "https://avatars.githubusercontent.com/u/73770830?v=4",
+          "https://user-images.githubusercontent.com/32845547/136139509-29698a82-8e2e-491e-b2b2-c6a0f0480447.jpeg",
       },
       {
         name: "Sayanya",
