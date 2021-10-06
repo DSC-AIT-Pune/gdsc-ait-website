@@ -8,89 +8,74 @@ function Contributors() {
       {
         name: "Shekhar Kumar",
         info: "",
-        imgUrl:
-          "https://cdn-icons-png.flaticon.com/512/168/168726.png",
+        imgUrl: "https://cdn-icons-png.flaticon.com/512/168/168726.png",
       },
       {
         name: "Yash Chaudhary",
         info: "",
-        imgUrl:
-          "https://cdn-icons-png.flaticon.com/512/168/168726.png",
+        imgUrl: "https://cdn-icons-png.flaticon.com/512/168/168726.png",
       },
       {
         name: "Abhishek Kumar Meel",
         info: "",
-        imgUrl:
-          "https://cdn-icons-png.flaticon.com/512/168/168726.png",
+        imgUrl: "https://cdn-icons-png.flaticon.com/512/168/168726.png",
       },
       {
-
         name: "Chandresh Singh",
         info: "",
-        imgUrl:
-          "https://cdn-icons-png.flaticon.com/512/168/168726.png",
+        imgUrl: "https://cdn-icons-png.flaticon.com/512/168/168726.png",
       },
       {
-
         name: "Shantanu Kumar Kar",
         info: "",
-        imgUrl:
-          "https://cdn-icons-png.flaticon.com/512/168/168726.png",
+        imgUrl: "https://cdn-icons-png.flaticon.com/512/168/168726.png",
       },
       {
         name: "Monu Yadav",
         info: "",
-        imgUrl:
-          "https://cdn-icons-png.flaticon.com/512/168/168726.png",
+        imgUrl: "https://cdn-icons-png.flaticon.com/512/168/168726.png",
       },
       {
         name: "Bhavana",
         info: "",
-        imgUrl:
-          "https://cdn-icons-png.flaticon.com/512/168/168726.png",
+        imgUrl: "https://cdn-icons-png.flaticon.com/512/168/168726.png",
       },
       {
         name: "Tarun Mishra",
         info: "Hello from Codestein!",
-        imgUrl:
-          "https://avatars.githubusercontent.com/u/32845547",
+        imgUrl: "https://avatars.githubusercontent.com/u/32845547",
       },
       {
         name: "Vinita",
         info: "",
-        imgUrl:
-          "https://cdn-icons-png.flaticon.com/512/168/168726.png",
-      },{
+        imgUrl: "https://cdn-icons-png.flaticon.com/512/168/168726.png",
+      },
+      {
         name: "Prince Harshwardhan",
         info: "",
-        imgUrl:
-          "https://avatars.githubusercontent.com/u/76548962",
+        imgUrl: "https://avatars.githubusercontent.com/u/76548962",
       },
       {
         name: "Mahesh",
         info: "Happy to start HacktoberFest'21",
-        imgUrl:
-          "https://cdn-icons-png.flaticon.com/512/168/168726.png",
+        imgUrl: "https://cdn-icons-png.flaticon.com/512/168/168726.png",
       },
       {
         name: "Abhinab ",
         info: "God here!!",
-        imgUrl:
-          "https://avatars.githubusercontent.com/u/73732246",
+        imgUrl: "https://avatars.githubusercontent.com/u/73732246",
       },
       {
         name: "Swaraj",
         info: "Hello there!!",
-        imgUrl:
-          "https://avatars.githubusercontent.com/u/76423625?v=4",
+        imgUrl: "https://avatars.githubusercontent.com/u/76423625?v=4",
       },
       {
         name: "Mohit",
         info: "Hello there!!",
-        imgUrl:
-          "https://avatars.githubusercontent.com/u/90604050?v=4",
+        imgUrl: "https://avatars.githubusercontent.com/u/90604050?v=4",
       },
-       {
+      {
         name: "Gaurav",
         info: "Hello there!!",
         imgUrl:
@@ -99,9 +84,15 @@ function Contributors() {
       {
         name: "Sayanya",
         info: "Hello there!!",
-        imgUrl:
-          "https://avatars.githubusercontent.com/u/76493885?v=4",
+        imgUrl: "https://avatars.githubusercontent.com/u/76493885?v=4",
+      },
+      /* 
+      {
+        name: "Your_Name",
+        info: "Your Message to us",
+        imgUrl: "Your github profile image's address",
       }
+      */
     ],
   };
   //----------------------TEST TEAM DATA-------------------------
