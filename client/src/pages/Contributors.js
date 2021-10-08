@@ -86,6 +86,11 @@ function Contributors() {
         info: "Hello there!!",
         imgUrl: "https://avatars.githubusercontent.com/u/76493885?v=4",
       },
+      {
+        name: "Muskan",
+        info: "K",
+        imgUrl: "https://avatars.githubusercontent.com/u/76208395",
+      },
       /* 
       {
         name: "Your_Name",
