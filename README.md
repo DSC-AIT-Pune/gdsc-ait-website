@@ -22,6 +22,11 @@
     JWT_EXPIRES_IN=7d
     JWT_COOKIE_EXPIRE=7d
     ```
+    OR 
+
+    ```
+    cp .env_sample .env
+    ```
 4. Run ``` yarn start ```
 5. Root directory is used for the backend of the applicaton and the frontend package is contained in  ``` client ``` folder.
 6. Hit Star 😍 if you find this amazing.
