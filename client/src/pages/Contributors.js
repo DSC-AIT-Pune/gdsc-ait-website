@@ -73,23 +73,23 @@ function Contributors() {
       {
         name: "Swaraj",
         info: "Hello there!!",
-        imgUrl: "https://avatars.githubusercontent.com/u/76423625?v=4",
+        imgUrl: "https://avatars.githubusercontent.com/u/76423625",
       },
       {
         name: "Mohit",
         info: "Hello there!!",
-        imgUrl: "https://avatars.githubusercontent.com/u/90604050?v=4",
+        imgUrl: "https://avatars.githubusercontent.com/u/90604050",
       },
       {
         name: "Gaurav",
         info: "Hello there!!",
         imgUrl:
-          "https://user-images.githubusercontent.com/32845547/136139509-29698a82-8e2e-491e-b2b2-c6a0f0480447.jpeg",
+          "https://avatars.githubusercontent.com/u/73770830",
       },
       {
         name: "Sayanya",
         info: "Hello there!!",
-        imgUrl: "https://avatars.githubusercontent.com/u/76493885?v=4",
+        imgUrl: "https://avatars.githubusercontent.com/u/76493885",
       },
       {
         name: "Muskan",
