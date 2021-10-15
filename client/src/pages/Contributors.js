@@ -46,6 +46,11 @@ function Contributors() {
         imgUrl: "https://avatars.githubusercontent.com/u/32845547",
       },
       {
+        name: "Akansha",
+        info: "Happy Hacktoberfest!!",
+        imgUrl: "https://avatars.githubusercontent.com/u/43820703",
+      },
+      {
         name: "Vinita",
         info: "",
         imgUrl: "https://cdn-icons-png.flaticon.com/512/168/168726.png",
