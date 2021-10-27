@@ -20,8 +20,8 @@ connectDB();
 require('colors');
 
 // route files
-const auth = require('./api/auth');
-const user = require('./api/user');
+const member = require('./api/team');
+const event = require('./api/event')
 const app = express();
 // Body Parser
 
@@ -65,8 +65,8 @@ const options = {
 app.use(express.static(path.join(__dirname, './public'), options));
 
 // Use Routes
-app.use('/api/v1/auth', auth);
-app.use('/api/v1/user', user);
+app.use('/api/v1/member', member);
+app.use('/api/v1/event', event);
 app.get('*.*', express.static('./public/frontend')); // production
 
 app.all('*', (req, res) => {
