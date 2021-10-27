@@ -19,17 +19,18 @@ const NavBar = (props) => {
           <Link to="/" className="Link">
             Home
           </Link>
-          <Link to="#AboutPage" className="Link">
+          {/* <Link to="#AboutPage" className="Link">
             About
-          </Link>
+          </Link> */}
           <Link to="/Schedule" className="Link">
+            {" "}
             Events
           </Link>
           <Link to="#ProjectsPage" className="Link">
             Projects
           </Link>
           <Link to="/Team_Members" className="Link">
-            Team
+            Core Team
           </Link>
         </div>
       </div>

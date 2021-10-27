@@ -1,23 +1,23 @@
 import React, { useState } from "react";
-import dsclogo from "../../images/gdsclogo.svg";
+import detailDSClogo from "../../styles/images/gdsclogo.svg";
 import MlearningLogo from "./disImg/MlearningLogo.svg";
 import androidLogo from "./disImg/androidLogo.svg";
 import GcloudLogo from "./disImg/GcloudLogo.svg";
 import WebLogo from "./disImg/GcloudLogo.png";
 
-const Discription = () => {
+const Description = () => {
   const [state, setState] = useState({
     breif:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in ",
   });
+
   return (
     <div className="discription_container">
       <img src={dsclogo} alt="dscLogo" />
       <p>{state.breif}</p>
+      
       <h3>Technology</h3>
-      <p>
-        These are some of the technologies we mainly try to focus on at DSC AIT
-      </p>
+      <p>These are some of the technologies we mainly try to focus on at DSC AIT</p>
       <div className="tecnolgyContainer">
         <div className="techCard">
           <div className="techlogo ">
@@ -58,4 +58,4 @@ const Discription = () => {
   );
 };
 
-export default Discription;
+export default Description;

@@ -53,7 +53,7 @@ function teamgrid(props) {
           <div className="contentBx">
             <h2>{props.name}</h2>
             <div className="size">
-              <h3>{props.role}</h3>
+              <h4>{props.role}</h4>
             </div>
           </div>
         </div>

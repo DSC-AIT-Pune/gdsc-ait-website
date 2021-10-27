@@ -67,12 +67,12 @@ app.use(express.static(path.join(__dirname, './public'), options));
 // Use Routes
 app.use('/api/v1/member', member);
 app.use('/api/v1/event', event);
-app.get('*.*', express.static('./public/frontend')); // production
 
-app.all('*', (req, res) => {
-    res.status(200).sendFile('/', {root: './public/frontend'});
+// set static folder
+app.use(express.static(path.join(__dirname, "client", "build")))
+app.get("*", (req, res) => {
+    res.sendFile(path.join(__dirname, "client", "build", "index.html"));
 });
-
 app.use(errorHandler);
 const PORT = process.env.PORT || 5000;
 

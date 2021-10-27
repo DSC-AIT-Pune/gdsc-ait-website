@@ -25,7 +25,7 @@ class App extends Component {
                 <Team />
               </Route>
               <Route exact path="/Schedule">
-                <Events />
+                <Events/>
               </Route>
               <Route exact path="/HacktoberFest">
                 <HacktoberFest />
