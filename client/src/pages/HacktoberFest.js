@@ -1,6 +1,6 @@
 import React from "react";
-import "./team.css";
-import hacktoberlogo from "./team-images/hacktoberlogo.svg";
+import "../styles/team.css";
+import hacktoberlogo from "../images/team-images/hacktoberlogo.svg";
 import Contributors from "./Contributors";
 
 function HacktoberFest() {

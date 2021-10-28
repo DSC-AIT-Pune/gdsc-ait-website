@@ -15,7 +15,6 @@ class App extends Component {
       <Router>
         <div className="body">
           <NavBar />
-          <img src={bg_svg} alt="" className="bg_svg" />
           <main className="container">
             <Switch>
               <Route exact path="/">
