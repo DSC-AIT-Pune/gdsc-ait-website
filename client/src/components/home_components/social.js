@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import map from "../../images/Map.svg";
+import map from "../../styles/images/Map.svg";
 import insta from "./disImg/insta.png";
 import Github from "./disImg/Github.png";
 import facebook from "./disImg/facebook.png";

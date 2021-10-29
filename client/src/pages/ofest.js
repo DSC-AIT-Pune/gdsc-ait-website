@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/team.css";
-import hacktober from "../images/team-images/hacktober.jpg";
+import hacktober from "../styles/images/team-images/hacktober.jpg";
 import { useHistory } from "react-router-dom";
 
 function Ofest() {
