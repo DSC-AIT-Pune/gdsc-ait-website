@@ -1,40 +1,36 @@
-import React, { Component, Fragment } from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import "./style.css";
-import Home from "./pages/Home";
+import React, { Component } from "react";
+import {Switch, Route, Redirect} from "react-router-dom";
+
 import NavBar from "./components/Navbar";
-import insta from "./images/insta.png";
-import bg_svg from "./images/bg_svg.png";
-import Team from "./pages/Team";
+import Home from "./pages/Home";
 import Events from "./pages/Events";
 import HacktoberFest from "./pages/HacktoberFest";
+import Projects from "./pages/Projects";
+import Team from "./pages/Team";
+import NotFound from "./pages/NotFound";
+
+import "./style.css";
+
 
 class App extends Component {
-  render() {
-    return (
-      <Router>
-        <div className="body">
-          <NavBar />
-          <main className="container">
-            <Switch>
-              <Route exact path="/">
-                <Home />
-              </Route>
-              <Route exact path="/Team_Members">
-                <Team />
-              </Route>
-              <Route exact path="/Schedule">
-                <Events/>
-              </Route>
-              <Route exact path="/HacktoberFest">
-                <HacktoberFest />
-              </Route>
-            </Switch>
-          </main>
-        </div>
-      </Router>
-    );
-  }
+    render() {
+        return (
+            <React.Fragment>
+                <NavBar />
+                <main className="container">
+                    <Switch>
+                        <Route path="/" exact component={Home}/>
+                        <Route path="/events" exact component={Events}/>
+                        <Route path="/projects" exact component={Projects}/>
+                        <Route path="/coreTeam" exact component={Team}/>
+                        <Route path="/hacktoberFest" exact component={HacktoberFest}/>
+                        <Route path="/notFound" component={NotFound}/>
+                        <Redirect to="/notFound"/>
+                    </Switch>
+                </main>
+            </React.Fragment>
+        );
+    }
 }
 
 export default App;

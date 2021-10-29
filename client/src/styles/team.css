@@ -2,15 +2,15 @@
 
 @font-face {
   font-family: 'GoogleSans';
-  src: local('GoogleSans-Medium'), url(../fonts/GoogleSans/GoogleSans-Medium-v1.27.ttf) format('truetype');
+  src: local('GoogleSans-Medium'), url(./fonts/GoogleSans/GoogleSans-Medium-v1.27.ttf) format('truetype');
 }
 @font-face {
   font-family: 'GoogleSans-MediumItalic';
-  src: local('GoogleSans-MediumItalic'), url(../fonts/GoogleSans/GoogleSans-MediumItalic-v1.27.ttf) format('truetype');
+  src: local('GoogleSans-MediumItalic'), url(./fonts/GoogleSans/GoogleSans-MediumItalic-v1.27.ttf) format('truetype');
 }
 @font-face {
   font-family: 'GoogleSans-Regular';
-  src: local('GoogleSans-Regular'), url(../fonts/GoogleSans/GoogleSans-Regular-v1.27.ttf) format('truetype');
+  src: local('GoogleSans-Regular'), url(./fonts/GoogleSans/GoogleSans-Regular-v1.27.ttf) format('truetype');
 }
 
 .team {
@@ -248,7 +248,7 @@ c-contentBx h2 {
 .member .color span {
   width: 25px;
   min-height: 25px;
-  background: url(../images/team-images/linkedin.svg);
+  background: url(./images/team-images/linkedin.svg);
   background-size: 25px;
   cursor: pointer;
   margin-bottom: 25px;
@@ -260,17 +260,17 @@ c-contentBx h2 {
 }
 
 .member .color span:nth-child(2) {
-  background-image: url(../images/team-images/github.svg);
+  background-image: url(./images/team-images/github.svg);
   background-size: 25px;
 }
 
 .member .color span:nth-child(3) {
-  background: url(../images/team-images/facebook.svg);
+  background: url(./images/team-images/facebook.svg);
   background-size: 25px;
 }
 
 .member .color span:nth-child(4) {
-  background-image: url(../images/team-images/instagram.svg);
+  background-image: url(./images/team-images/instagram.svg);
   background-size: 25px;
 }
 

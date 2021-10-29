@@ -1,5 +1,5 @@
 import React from "react";
-import team_mem from "../images/team-images/profile.svg";
+import team_mem from "../styles/images/team-images/profile.svg";
 import "../styles/team.css";
 
 function ContributorGrid(props) {
