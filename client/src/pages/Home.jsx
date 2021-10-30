@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import Description from "../components/home_components/Description";
 import EventsHome from "../components/home_components/EventsHome";
 import introImage from "../styles/images/image.png";
-
+import hacktoberlogo from "../styles/images/team-images/hacktoberlogo.svg";
+import "../styles/global.css";
 
 class Home extends Component {
     state = {
@@ -46,7 +47,16 @@ class Home extends Component {
                 </div>
 
                 <div className="home_events_container">
-                    <EventsHome />
+                    <EventsHome 
+                        img={hacktoberlogo}
+                        title="Hacktober Fest 2021"
+                        description="Open source is changing the world – one contribution at a time."
+                    />
+                    <EventsHome 
+                        img={hacktoberlogo}
+                        title="Hacktober Fest 2020"
+                        description="Open source is changing the world – one contribution at a time."
+                    />
                 </div>
             </div>
         );
