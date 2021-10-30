@@ -13,7 +13,7 @@
     height: 12rem;
     width: 100%;
     object-fit: cover;
-    }
+}
   
 .event-home-card-container .event-home-card-title {
     padding: 1rem;
@@ -40,7 +40,7 @@
     transform: scale(1.02);
 }
   
-.event-home-card-container .event-home-card-btn :hover{
+.event-home-card-container .event-home-card-btn:hover{
     background: #d50000;
     color: white;
 }
