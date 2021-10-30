@@ -1,3 +1,5 @@
 node_modules/
 *.env
 yarn.lock
+.idea/
+package-lock.json

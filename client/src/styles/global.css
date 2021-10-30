@@ -1,18 +1,24 @@
 
 @font-face {
-    font-family: 'GoogleSans';
-    src: local('GoogleSans-Medium'), url(./fonts/GoogleSans/GoogleSans-Medium-v1.27.ttf) format('truetype');
+	font-family: 'GoogleSans';
+	src: local('GoogleSans-Medium'), url(./fonts/GoogleSans/GoogleSans-Medium-v1.27.ttf) format('truetype');
   }
   @font-face {
-    font-family: 'GoogleSans-MediumItalic';
-    src: local('GoogleSans-MediumItalic'), url(./fonts/GoogleSans/GoogleSans-MediumItalic-v1.27.ttf) format('truetype');
+	font-family: 'GoogleSans-MediumItalic';
+	src: local('GoogleSans-MediumItalic'), url(./fonts/GoogleSans/GoogleSans-MediumItalic-v1.27.ttf) format('truetype');
   }
   @font-face {
-    font-family: 'GoogleSans-Regular';
-    src: local('GoogleSans-Regular'), url(./fonts/GoogleSans/GoogleSans-Regular-v1.27.ttf) format('truetype');
+	font-family: 'GoogleSans-Regular';
+	src: local('GoogleSans-Regular'), url(./fonts/GoogleSans/GoogleSans-Regular-v1.27.ttf) format('truetype');
   }
-
 
   * {
-      font-family: 'GoogleSans-Regular';
+	  font-family: 'GoogleSans-Regular';
   }
+
+.home_events_container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(12rem, 16rem));
+	gap: 2rem;
+	justify-content: center;
+}
