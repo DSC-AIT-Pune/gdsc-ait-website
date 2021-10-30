@@ -1,11 +1,17 @@
 import React from "react";
 import Ofest from "./ofest";
+import EventGrid from "../components/EventsGrid";
 
 const Events = () => {
   return (
-    <div className="fixed-bike" style={{ marginTop: "0px" }}>
-      <Ofest />
-    </div>
+   
+      <section className="events" style={{
+        width: '90%'
+      }}>
+        <EventGrid/>
+      </section>
+   
+
   );
 };
 

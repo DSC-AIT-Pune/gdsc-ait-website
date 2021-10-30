@@ -1,0 +1,64 @@
+.compact-card {
+    height: 360px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: white;
+    box-shadow: 0 14px 26px rgba(0,0,0,0.04);
+    transition: all 0.3s ease-out;
+    border-radius: 22px;
+    border: 2px solid #4285F4;
+}
+.compact-card .banner-area{
+    object-fit: none;
+    height: 40%;
+}
+.compact-card .banner-area img{
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+    width: 100%;
+    height: 100%;
+}
+.compact-card .content-area{
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    padding: 5% 5% 8% 8%;
+}
+.compact-card .content-area .content-head{
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.compact-card .content-area .content-head .logo{
+    width: 30%;
+    text-align: left;
+}
+
+.compact-card .content-area .content-head img{
+    height: 100%;
+    text-align: center;
+}
+.compact-card .content-area .content-head .name{
+    width: 70%;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.compact-card .content-area .content-body{
+    padding-top: 10%;
+    height: 70%;
+    color: grey;
+}
+.compact-card .content-area .content-body .desc{
+    text-align: justify;
+}
+.compact-card .content-area .expand-button .button{
+    margin-left: auto;
+    margin-right: auto;
+}
