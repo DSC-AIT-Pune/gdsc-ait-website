@@ -1,0 +1,53 @@
+.contact-section {
+   
+    width: 90%;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    margin-bottom: auto;
+}
+.right-col{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.contact-section .right-col .item{
+    padding: 2%;
+}
+
+.contact-section .right-col .card {
+    height: 160px;
+    width: 140px;
+    padding: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: white;
+    box-shadow: 0 14px 26px rgba(0,0,0,0.04);
+    transition: all 0.3s ease-out;
+    border-radius: 22px;
+}
+.contact-section .right-col .card .card-content{
+    height: 100%;
+    text-align: center;
+}
+
+.contact-section .right-col .card .image{
+    height: 60%;
+    text-align: center;
+}
+
+.contact-section .right-col .card .image img{
+    position: relative;
+    top: 25%;
+    margin:auto;
+}
+
+.contact-section .right-col .card .social-text{
+    width: 100%;
+    font-size: small;
+    text-align: center;
+}

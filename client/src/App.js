@@ -7,9 +7,10 @@ import Events from "./pages/Events";
 import HacktoberFest from "./pages/HacktoberFest";
 import Projects from "./pages/Projects";
 import Team from "./pages/Team";
+import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
-
 import "./style.css";
+import './styles/global.css'
 
 
 class App extends Component {
@@ -23,6 +24,7 @@ class App extends Component {
                         <Route path="/events" exact component={Events}/>
                         <Route path="/projects" exact component={Projects}/>
                         <Route path="/coreTeam" exact component={Team}/>
+                        <Route path="/contact" exact component={Contact}/>
                         <Route path="/hacktoberFest" exact component={HacktoberFest}/>
                         <Route path="/notFound" component={NotFound}/>
                         <Redirect to="/notFound"/>

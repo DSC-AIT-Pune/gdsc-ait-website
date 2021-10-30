@@ -29,6 +29,9 @@ const NavBar = (props) => {
           <NavLink to="/coreTeam" className="Link">
             Core Team
           </NavLink>
+          <NavLink to="/contact" className="Link">
+            Contact
+          </NavLink>
         </div>
       </div>
 
