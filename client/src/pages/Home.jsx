@@ -3,6 +3,7 @@ import Description from "../components/home_components/Description";
 import EventsHome from "../components/home_components/EventsHome";
 import introImage from "../styles/images/we_love_dev.jpg";
 import GoogleDevImage from '../styles/images/google_dev.png'
+import hacktoberlogo from "../styles/images/team-images/hacktoberlogo.svg";
 import '../styles/pages/home.css';
 
 class Home extends Component {
@@ -48,28 +49,7 @@ class Home extends Component {
                     </div>
                 </div>
 
-                <div className="description_container">
-                    <Description />
-                </div>
-
-                <div className="home_events_container">
-                    <h2 className="home_events_title">Events</h2>
-                    <EventsHome 
-                        img={hacktoberlogo}
-                        title="Hacktober Fest 2021"
-                        description="Open source is changing the world – one contribution at a time."
-                    />
-                    <EventsHome 
-                        img={hacktoberlogo}
-                        title="Hacktober Fest 2020"
-                        description="Open source is changing the world – one contribution at a time."
-                    />
-                    <EventsHome 
-                        img={introImage}
-                        title="Google Solution 2020"
-                        description="Open source is changing the world – one contribution at a time."
-                    />
-                </div>
+                
             </div>
         );
     }
