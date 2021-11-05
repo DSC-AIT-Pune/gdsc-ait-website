@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/team.css";
+import "../styles/pages/team.css";
 import hacktober from "../styles/images/team-images/hacktober.jpg";
 import { useHistory } from "react-router-dom";
 

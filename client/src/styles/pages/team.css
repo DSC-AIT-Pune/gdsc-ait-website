@@ -2,15 +2,15 @@
 
 @font-face {
   font-family: 'GoogleSans';
-  src: local('GoogleSans-Medium'), url(./fonts/GoogleSans/GoogleSans-Medium-v1.27.ttf) format('truetype');
+  src: local('GoogleSans-Medium'), url(../fonts/GoogleSans/GoogleSans-Medium-v1.27.ttf) format('truetype');
 }
 @font-face {
   font-family: 'GoogleSans-MediumItalic';
-  src: local('GoogleSans-MediumItalic'), url(./fonts/GoogleSans/GoogleSans-MediumItalic-v1.27.ttf) format('truetype');
+  src: local('GoogleSans-MediumItalic'), url(../fonts/GoogleSans/GoogleSans-MediumItalic-v1.27.ttf) format('truetype');
 }
 @font-face {
   font-family: 'GoogleSans-Regular';
-  src: local('GoogleSans-Regular'), url(./fonts/GoogleSans/GoogleSans-Regular-v1.27.ttf) format('truetype');
+  src: local('GoogleSans-Regular'), url(../fonts/GoogleSans/GoogleSans-Regular-v1.27.ttf) format('truetype');
 }
 
 .team {
@@ -20,7 +20,6 @@
   align-items: center;
   height: auto;
   font-family: "GoogleSans-Regular";
-  margin-top: 50px;
   width: 100%;
 }
 .c-right {
@@ -92,14 +91,18 @@ c-contentBx h2 {
   width: 90%;
   background: white;
   overflow: hidden;
-  box-shadow: 0 14px 26px rgba(0,0,0,0.04);
-  transition: all 0.3s ease-out;
+  box-shadow: 4px 12px 47px 0 rgb(0 0 0 / 10%);
+  transition-duration: 250ms;
+  transition-property: transform, background-color;
   border-radius: 22px;
 }
 
-.member .container .card:hover {
+hover {
   transform:  scale(1.1);
   box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.member .container .card:hover {
+  transform:  translateY(-5px);
 }
 
 .member .container .card:before {
@@ -248,7 +251,7 @@ c-contentBx h2 {
 .member .color span {
   width: 25px;
   min-height: 25px;
-  background: url(./images/team-images/linkedin.svg);
+  background: url(../images/team-images/linkedin.svg);
   background-size: 25px;
   cursor: pointer;
   margin-bottom: 25px;
@@ -260,17 +263,17 @@ c-contentBx h2 {
 }
 
 .member .color span:nth-child(2) {
-  background-image: url(./images/team-images/github.svg);
+  background-image: url(../images/team-images/github.svg);
   background-size: 25px;
 }
 
 .member .color span:nth-child(3) {
-  background: url(./images/team-images/facebook.svg);
+  background: url(../images/team-images/facebook.svg);
   background-size: 25px;
 }
 
 .member .color span:nth-child(4) {
-  background-image: url(./images/team-images/instagram.svg);
+  background-image: url(../images/team-images/instagram.svg);
   background-size: 25px;
 }
 
@@ -399,3 +402,37 @@ c-contentBx h2 {
 
 /* #####################contributer############
  */
+
+
+ .underline {
+  background: transparent;
+  border: none;
+  margin: 30px auto 0;
+  display: block;
+  font-size: 20px;
+  outline: none;
+  position: relative;
+  transition: 0.3s;
+  padding: 10px;
+}
+.underline:before {
+  content: '';
+  border-bottom: 1px solid #4285F4;
+  padding: 0 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 0;
+  transition: 0.3s;
+}
+.underline:hover:before {
+  width: 100%;
+  padding: 0;
+}
+.underline:active {
+  background: #4285F4;
+  color: #fff;
+  transition: none;
+}

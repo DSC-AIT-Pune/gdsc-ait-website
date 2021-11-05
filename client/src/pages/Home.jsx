@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 import Description from "../components/home_components/Description";
 import EventsHome from "../components/home_components/EventsHome";
-import introImage from "../styles/images/image.png";
-
+import introImage from "../styles/images/we_love_dev.jpg";
+import GoogleDevImage from '../styles/images/google_dev.png'
+import '../styles/pages/home.css';
 
 class Home extends Component {
     state = {
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in",
+        description: "Google Developer Student Clubs are community groups for college and university students interested in Google developer technologies.",
     };
 
     render() {
@@ -14,8 +15,14 @@ class Home extends Component {
             <div className="frontPage">
                 <div className="welcome">
                     <div className="content">
-                        <h1 className="Title_heading">Connect-Learn-Grow</h1>
-                        <p>{this.state.description}</p>
+                        <div><h1 className="Title_heading"><span style={{color:"#FF313C"}}>Connect.</span><span style={{color:"#4282EB"}}>Learn.</span><span style={{color:"#43B864"}}>Grow</span></h1></div>
+                        <div style={{flexDirection: "row", display:"flex"}}>
+                            <div><h2><span style={{color:"black", fontWeight:"lighter"}}>Powered by</span></h2></div>
+                            <div style={{paddingLeft:"16px"}}><img src={GoogleDevImage} style={{height:"36px", flexDirection: "row", display:"flex"}}/></div>
+                        </div>
+                        <div><p><span style={{color:"grey",fontSize:"18px", fontWeight:"lighter"}}>{this.state.description}</span></p></div>
+                        
+                        
                         <button
                             className="Member_button"
                             onClick={(e) => {

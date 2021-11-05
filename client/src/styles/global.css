@@ -15,4 +15,14 @@
 
   * {
       font-family: 'GoogleSans-Regular';
+      text-decoration: none;
+      margin-left:"auto";
+      margin-right:"auto";
+      margin: 0;
+      padding: 0%;
+      text-decoration: none;
   }
+
+.page{
+  width: 85%;
+}

@@ -7,11 +7,16 @@
     flex-direction: column;
     flex-wrap: wrap;
     background: white;
-    box-shadow: 0 14px 26px rgba(0,0,0,0.04);
-    transition: all 0.3s ease-out;
+    box-shadow: 4px 40px 48px rgb(0 0 0 / 10%);
+    transition-duration: 250ms;
+    transition-property: transform, background-color;
     border-radius: 22px;
-    border: 2px solid #4285F4;
 }
+
+.compact-card:hover{
+    transform:  translateY(-5px);
+}
+
 .compact-card .banner-area{
     object-fit: none;
     height: 40%;
@@ -26,7 +31,7 @@
     height: 45%;
     display: flex;
     flex-direction: column;
-    padding: 5% 5% 8% 8%;
+    padding: 5% 8% 5% 8%;
 }
 .compact-card .content-area .content-head{
     height: 30%;

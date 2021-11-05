@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/team.css";
+import "../styles/pages/team.css";
 import hacktoberlogo from "../styles/images/team-images/hacktoberlogo.svg";
 import Contributors from "./Contributors";
 

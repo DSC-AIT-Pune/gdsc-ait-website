@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 
-import logo from "../styles/images/logo.png";
+import logo from "../styles/images/gdsc_logo.png";
 import bg_svg from "../styles/images/bg_svg.png";
 import Home_phone_logo from "../styles/images/Home_phone_logo.png";
 import achivement_phone_logo from "../styles/images/achivement_phone_logo.png";
@@ -10,6 +10,7 @@ import calender_phone_logo from "../styles/images/calender_phone_logo.png";
 import idea_phone_logo from "../styles/images/idea_phone_logo.png";
 import contact_phone_logo from "../styles/images/contact_phone_logo.png";
 import contact_Us_phone_logo from "../styles/images/contact_Us_phone_logo.png";
+import '../styles/components/navbar.css';
 
 const NavBar = (props) => {
   return (
@@ -23,8 +24,11 @@ const NavBar = (props) => {
           <NavLink to="/events" className="Link">
             Events
           </NavLink>
-          <NavLink to="/projects" className="Link">
-            Projects
+          <NavLink to="/solutions" className="Link">
+            Solutions
+          </NavLink>
+          <NavLink to="/videos" className="Link">
+            Videos
           </NavLink>
           <NavLink to="/coreTeam" className="Link">
             Core Team

@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/team.css";
+import "../../styles/pages/team.css";
 
 const openInNewTab = (url) => {
     const newWindow = window.open(url, '_blank', 'noopener,noreferrer')

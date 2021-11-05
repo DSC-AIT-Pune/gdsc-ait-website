@@ -1,0 +1,61 @@
+/* ##################################NavBar style ############################################## */
+
+.header-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+  }
+  
+  .navbar_desktop {
+    display: flex;
+    height: 45px;
+    width: 75vw;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: grey;
+    margin-top: 20px;
+  }
+  .logo {
+    height: 100%;
+  }
+  .Link {
+    color: grey;
+    font-weight: 550;
+    font-size: 18px;
+  }
+  .Nav_links {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+  }
+  .bg_svg {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 20vw;
+    width: 30vw;
+  }
+  
+  /* ##########################phone Navbar ################################# */
+  /* ##########################phone Navbar ################################# */
+  /* ##########################phone Navbar ################################# */
+  /* ##########################phone Navbar ################################# */
+  /* ##########################phone Navbar ################################# */
+  
+  .phone_navbar {
+    position: fixed;
+    bottom: 0%;
+    left: 0px;
+    display: none;
+    height: auto;
+    width: 100%;
+    justify-content: space-around;
+    /* align-items: center; */
+    border-top: 1px solid rgb(146, 143, 143);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(241, 237, 237);
+  }
+  
