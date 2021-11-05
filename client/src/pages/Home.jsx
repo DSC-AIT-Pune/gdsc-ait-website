@@ -53,7 +53,22 @@ class Home extends Component {
                 </div>
 
                 <div className="home_events_container">
-                    <EventsHome />
+                    <h2 className="home_events_title">Events</h2>
+                    <EventsHome 
+                        img={hacktoberlogo}
+                        title="Hacktober Fest 2021"
+                        description="Open source is changing the world – one contribution at a time."
+                    />
+                    <EventsHome 
+                        img={hacktoberlogo}
+                        title="Hacktober Fest 2020"
+                        description="Open source is changing the world – one contribution at a time."
+                    />
+                    <EventsHome 
+                        img={introImage}
+                        title="Google Solution 2020"
+                        description="Open source is changing the world – one contribution at a time."
+                    />
                 </div>
             </div>
         );
