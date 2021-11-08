@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../../styles/components/compactCard.css';
+import styles from '../../styles/components/compactCard.module.css'
 import Button from '../../common/Button'
 
 class ProjectCard extends Component {
@@ -7,26 +7,24 @@ class ProjectCard extends Component {
         super(props);
         this.state = {  }
     }
+    
     render() { 
-        return ( <div className="compact-card">
-            <div className="banner-area">
+        return ( <div className={styles.compactCard}>
+            <div className={styles.bannerArea}>
                 <img src={this.props.banner}/>
             </div>
-            <div className="content-area">
-                <div className="content-head">
-                    <div className="logo">
-                        <img src={this.props.logo}/>
-                    </div>
-                    <div className="name">
+            <div className={styles.contentArea}>
+                <div className={styles.contentHead}>
+                    <div className={styles.name}>
                         {this.props.name}
                     </div>
                 </div>
-                <div className="content-body">
-                    <div className="desc">
+                <div className={styles.contentBody}>
+                    <div className={styles.desc}>
                         <span>{this.props.desc}</span>
                     </div>
                 </div>
-                <div className="expand-button" style={{ marginLeft: 'auto', marginRight: 'auto', paddingTop: '5%'}}>
+                <div className={styles.expandButton}>
                     <Button text={"Know More"}/>
                 </div>
             </div>

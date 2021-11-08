@@ -52,7 +52,6 @@ const EventGrid = () => {
     var CompactCardGrid = events.map((event,ind) => {
         return(
             <Grid item xs={4} className="item" style={{
-
                 marginLeft:'auto',
                 marginRight:'auto',
                 padding:'48px 16px'

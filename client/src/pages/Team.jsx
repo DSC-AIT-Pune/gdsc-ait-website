@@ -3,6 +3,7 @@ import axios from "axios"
 import TeamGrid from "../components/teams_components/TeamGrid";
 import TeamImage from '../styles/images/team6.jpg'
 import { Grid } from "@mui/material";
+import styles from "../styles/pages/team/team.module.css"
 
 const MEMBER_URI = "http://localhost:5000/api/v1/member/all"
 
@@ -142,29 +143,34 @@ class Team extends React.Component {
 
   render(){
     return(
-      <div className="team">
-        <section className="banner-section" style={{width:"85%", height:"80vh",padding: '6% 2% 2% 2%',marginLeft:"auto",marginRight:"auto"}}>
+      <div className={styles.team}>
+        <section className={styles.bannerSection}>
             <Grid container style={{marginLeft:"auto",marginRight:"auto"}}>
                 <Grid item xs={6}>
                     <img src={TeamImage} style={{height: '420px'}}/>
                 </Grid>
                 <Grid item xs={6}>
-                  <div style={{display:"flex",flexDirection:"column"}}>           
-
-                      <div style={{height:"30%"}}><h1 style={{fontSize: "8vh", color: "#FFC54F"}}>{"A community that grows by embracing others"}</h1></div>                   
-                      <div style={{height:"70%",padding:"48px 48px 0 0"}}><span style={{color:"grey", fontSize:"24px"}}>{"We are team of experienced developers who are interested in giving back to the community"}</span></div>
+                  <div className={styles.bannerContent}>           
+                      <div className={styles.bannerHeading}>
+                        <h1>{"A community that grows by embracing others"}</h1>
+                      </div>                   
+                      <div className={styles.bannerSubText} >
+                        <span >{"We are team of experienced developers who are interested in giving back to the community"}</span>
+                      </div>
                   </div>
                 </Grid>
             </Grid>
         </section>
         <div>
-            <div><span style={{fontSize: "8vh", fontWeight: "bold", color: "#4285F4"}}>{"Our Team"}</span></div>
-            <div style={{display:"flex",flexDirection:"row", justifyContent: "space-evenly"}}>
-              <div><span className="underline" style={{fontSize: "24px", color: "#4285F4"}}>{"2021"}</span></div>
-              <div><span className="underline" style={{fontSize: "24px", color: "#4285F4"}}>{"Alumni"}</span></div>
+            <div>
+              <span style={{fontSize: "8vh", fontWeight: "bold", color: "#4285F4"}}>{"Our Team"}</span>
+            </div>
+            <div className={styles.yearTimeline} >
+              <div><span className={styles.timelineItems}>{"2021"}</span></div>
+              <div><span className={styles.timelineItems}>{"Alumni"}</span></div>
             </div>
           </div>
-        <section className="member">
+        <section className={styles.member}>
           {this.state.members.map((member, ind) => {
             console.log(member);
             return (

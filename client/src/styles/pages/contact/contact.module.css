@@ -1,0 +1,60 @@
+.contactSection {
+    width: 85%;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    margin-bottom: auto;
+}
+
+.rightCol {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.item {
+    padding: 2%;
+}
+
+.card {
+    height: 160px;
+    width: 140px;
+    padding: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: white;
+    box-shadow: 4px 12px 47px 0 rgb(0 0 0 / 10%);
+    transition: all 0.3s ease-out;
+    border-radius: 22px;
+}
+
+.card:hover {
+    transform:  translateY(-5px);
+}
+
+.card-content{
+    height: 100%;
+    text-align: center;
+}
+
+.image{
+    height: 60%;
+    text-align: center;
+}
+
+.image img{
+    position: relative;
+    top: 25%;
+    margin:auto;
+}
+
+.social-text{
+    width: 80%;
+    font-size: small;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}

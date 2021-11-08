@@ -1,9 +1,8 @@
 import React from 'react';
 import SocialCard from '../components/social_components/SocialCard';
 import {Grid, Box} from '@mui/material'
-import '../styles/pages/contact.css'
 import TeamImage from '../styles/images/team7.png'
-
+import styles from '../styles/pages/contact/contact.module.css'
 const Contact = () => {
 
     let socialSites = [
@@ -47,7 +46,7 @@ const Contact = () => {
 
     var SocialCardGrid = socialSites.map((site,ind) => {
         return(
-            <Grid item xs={4} className="item">
+            <Grid item xs={4} className={styles.item}>
                 <SocialCard item
                 id={ind}
                 name={site.name}
@@ -60,12 +59,12 @@ const Contact = () => {
     })
 
     return(
-        <Box className="contact-section">
+        <Box className={styles.contactSection}>
             <Grid container spacing={2} >
-                <Grid item xs={6} className="left-col">
+                <Grid item xs={6} className={styles.leftCol}>
                     <img src={TeamImage} style={{height: '480px'}}/>
                 </Grid>
-                <Grid item xs={6} className="right-col">
+                <Grid item xs={6} className={styles.rightCol}>
                     {SocialCardGrid}                    
                 </Grid>
             </Grid>
