@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import styles from '../../styles/components/socialCard.module.css'
 class SocialCard extends Component {
     constructor(props) {
         super(props);
@@ -7,12 +7,12 @@ class SocialCard extends Component {
     }
     render(props) { 
         return ( 
-            <div className="card">
-                <div className="card-content">
-                    <div className="image">
+            <div className={styles.card}>
+                <div className={styles.cardContent}>
+                    <div className={styles.image}>
                         <img src={this.props.logo} />
                     </div>
-                    <div className="social-text">
+                    <div className={styles.socialText}>
                         {this.props.text}
                     </div>
                 </div>    

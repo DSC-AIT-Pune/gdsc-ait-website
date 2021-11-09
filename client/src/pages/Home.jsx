@@ -4,7 +4,7 @@ import EventsHome from "../components/home_components/EventsHome";
 import introImage from "../styles/images/we_love_dev.jpg";
 import GoogleDevImage from '../styles/images/google_dev.png'
 import hacktoberlogo from "../styles/images/team-images/hacktoberlogo.svg";
-import '../styles/pages/home.css';
+import styles from "../styles/pages/home/home.module.css"
 
 class Home extends Component {
     state = {
@@ -13,10 +13,10 @@ class Home extends Component {
 
     render() {
         return (
-            <div className="frontPage">
-                <div className="welcome">
-                    <div className="content">
-                        <div><h1 className="Title_heading"><span style={{color:"#FF313C"}}>Connect.</span><span style={{color:"#4282EB"}}>Learn.</span><span style={{color:"#43B864"}}>Grow</span></h1></div>
+            <div className={styles.frontPage}>
+                <div className={styles.welcome}>
+                    <div className={styles.content}>
+                        <div><h1 className={styles.TitleHeading}><span style={{color:"#FF313C"}}>Connect.</span><span style={{color:"#4282EB"}}>Learn.</span><span style={{color:"#43B864"}}>Grow</span></h1></div>
                         <div style={{flexDirection: "row", display:"flex"}}>
                             <div><h2><span style={{color:"black", fontWeight:"lighter"}}>Powered by</span></h2></div>
                             <div style={{paddingLeft:"16px"}}><img src={GoogleDevImage} style={{height:"36px", flexDirection: "row", display:"flex"}}/></div>
@@ -25,7 +25,7 @@ class Home extends Component {
                         
                         
                         <button
-                            className="Member_button"
+                            className={styles.MemberButton}
                             onClick={(e) => {
                                 e.preventDefault();
                                 window.location.href = "https://gdsc.community.dev/army-institute-of-technology-pune/";
@@ -34,7 +34,7 @@ class Home extends Component {
                             Join as Member
                         </button>
                         <button
-                            className="Discord_button"
+                            className={styles.DiscordButton}
                             onClick={(e) => {
                                 e.preventDefault();
                                 window.location.href = "https://discord.com/invite/56sCubbrtp";
@@ -44,8 +44,8 @@ class Home extends Component {
                         </button>
                     </div>
 
-                    <div className="HomePage_svg">
-                        <img src={introImage} alt="introImage" className="svg" />
+                    <div className={styles.HomePageSvg}>
+                        <img src={introImage} alt="introImage" className={styles.svg} />
                     </div>
                 </div>
 

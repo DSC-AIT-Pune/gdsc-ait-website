@@ -10,30 +10,30 @@ import calender_phone_logo from "../styles/images/calender_phone_logo.png";
 import idea_phone_logo from "../styles/images/idea_phone_logo.png";
 import contact_phone_logo from "../styles/images/contact_phone_logo.png";
 import contact_Us_phone_logo from "../styles/images/contact_Us_phone_logo.png";
-import '../styles/components/navbar.css';
+import styles from '../styles/components/navbar.module.css';
 
 const NavBar = (props) => {
   return (
-    <nav className="header-nav">
-      <div className="navbar_desktop">
-        <img src={logo} alt="gdscLogo" className="logo" />
-        <div className="Nav_links">
-          <NavLink to="/" className="Link">
+    <nav className={styles.headerNav}>
+      <div className={styles.navbarDesktop}>
+        <img src={logo} alt="gdscLogo" className={styles.logo} />
+        <div className={styles.NavLinks}>
+          <NavLink to="/" className={styles.Link}>
             Home
           </NavLink>
-          <NavLink to="/events" className="Link">
+          <NavLink to="/events" className={styles.Link}>
             Events
           </NavLink>
-          <NavLink to="/solutions" className="Link">
+          <NavLink to="/solutions" className={styles.Link}>
             Solutions
           </NavLink>
-          <NavLink to="/videos" className="Link">
+          <NavLink to="/videos" className={styles.Link}>
             Videos
           </NavLink>
-          <NavLink to="/coreTeam" className="Link">
+          <NavLink to="/coreTeam" className={styles.Link}>
             Core Team
           </NavLink>
-          <NavLink to="/contact" className="Link">
+          <NavLink to="/contact" className={styles.Link}>
             Contact
           </NavLink>
         </div>

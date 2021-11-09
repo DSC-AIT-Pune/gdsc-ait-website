@@ -4,28 +4,10 @@ import EventGrid from "../components/events_components/EventsGrid";
 import ExpandedLayout from "../components/events_components/ExpandLayout";
 import {Grid, Box} from '@mui/material'
 import EventTimelineImage from '../styles/images/event_timeline.jpg'
+import styles from '../styles/pages/events/events.module.css'
 
 const Events = () => {
-  const timelineNavStyle = {
-    width: '260px',
-    height: '30px',
-    marginLeft: 'auto',
-    marginRight: 'auto',
-    background: 'white',
-    overflow: 'hidden',
-    boxShadow: '0 14px 26px rgba(0,0,0,0.04)',
-    borderRadius: '22px',
-    display: 'flex',
-    flexDirection: 'row'
-  };
 
-  const timelineNavItemStyle = {
-      borderRight: '1px solid darkgray'
-  };
-
-  const sectionStyle = {
-    padding: '2% 0 2% 0'
-  }
   
   let majorEvents = [
     {
@@ -78,32 +60,31 @@ const Events = () => {
 
   return (
       <div className="events" style={{width: '90%'}}>
-        <section className="banner-section" style={{width:"90%", height:"85vh",padding: '6% 2% 2% 2%',marginLeft:"auto",marginRight:"auto"}}>
+        <section className={styles.bannerSection}>
             <Grid container style={{marginLeft:"auto",marginRight:"auto"}}>
                 <Grid item xs={7}>
-                    <img src={EventTimelineImage} style={{height: '400px', position:"absolute", top:"45%",left:"0%",zIndex:"-1"}}/>
+                    <img className={styles.bannerImage} src={EventTimelineImage} />
                 </Grid>
                 <Grid item xs={5}>
-                <div style={{display:"flex",flexDirection:"column"}}>           
-
-                    <div style={{height:"50%"}}><h1 style={{fontSize: "8vh", color: "#6199F6"}}>{"Participate and Engage"}</h1></div>                   
-                    <div style={{height:"50%",padding:"48px 48px 0 0"}}><span style={{color:"grey", fontSize:"24px"}}>{"We are team of experienced developers who are interested in giving back to the community"}</span></div>
+                <div className={styles.bannerContent}>           
+                    <div className={styles.bannerHeading}><h1>{"Participate and Engage"}</h1></div>                   
+                    <div className={styles.bannerSubText}><span>{"We are team of experienced developers who are interested in giving back to the community"}</span></div>
                 </div>
                 </Grid>
             </Grid>
         </section>
         <div style={{textAlign:"center"}}>
-                <span style={{fontSize: "8vh", fontWeight: "bold", color: "#6199F6"}}>{"Major Events"}</span>
-            </div>
-        <section className="major-events-section" style={sectionStyle}>
+            <span style={{fontSize: "8vh", fontWeight: "bold", color: "#6199F6"}}>{"Major Events"}</span>
+        </div>
+        <section className={styles.sectionStyle}>
           {MajorEvents}
         </section>
         
         
-        <div style={{width:"fit-content",marginLeft:"auto",marginRight:"auto", display:"flex",flexDirection:"row", gap:"32px",textAlign:"center"}}>
-              <div><span className="underline" style={{fontSize: "24px", color: "#6199F6"}}>{"Previous"}</span></div>
-              <div><span className="underline" style={{fontSize: "24px", color: "#6199F6"}}>{"Current"}</span></div>
-              <div><span className="underline" style={{fontSize: "24px", color: "#6199F6"}}>{"Upcomming"}</span></div>
+        <div className={styles.eventTimeline} >
+              <div><span className={styles.eventTimelineItems}>{"Previous"}</span></div>
+              <div><span className={styles.eventTimelineItems}>{"Current"}</span></div>
+              <div><span className={styles.eventTimelineItems}>{"Upcomming"}</span></div>
         </div>
         <section style={{marginTop:"48px"}}><EventGrid /></section>
         

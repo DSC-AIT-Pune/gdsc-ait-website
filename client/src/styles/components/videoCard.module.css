@@ -1,4 +1,4 @@
-.video-card {
+.videoCard {
     height: 300px;
     width: 360px;
     margin-left: auto;
@@ -12,21 +12,21 @@
     transition-property: transform, background-color;
     border-radius: 22px;
 }
-.video-card iframe{
+.videoCard iframe{
     border-top-right-radius: 22px;
     border-top-left-radius: 22px;
 }
-.video-card:hover{
+.videoCard:hover{
     transform:  translateY(-5px);
 }
 
-.video-card .content-area{
+.contentArea{
     text-align: left;
     padding: 32px;
     height: 40%;
 }
 
-.video-card .content-area span{
+.contentArea span{
     color: #4285F4;
     font-weight: bold;
 }

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../../styles/components/compactCard.css';
+import styles from '../../styles/components/compactCard.module.css'
 import Button from '../../common/Button'
 class CompactCard extends Component {
     constructor(props) {
@@ -7,25 +7,25 @@ class CompactCard extends Component {
         this.state = {  }
     }
     render() { 
-        return ( <div className="compact-card" style={{transition: "all 0.3s ease-out"}}>
-            <div className="banner-area">
+        return ( <div className={styles.compactCard} style={{transition: "all 0.3s ease-out"}}>
+            <div className={styles.bannerArea}>
                 <img src={this.props.banner}/>
             </div>
-            <div className="content-area">
-                <div className="content-head">
-                    <div className="logo">
+            <div className={styles.contentArea}>
+                <div className={styles.contentHead}>
+                    <div className={styles.logo}>
                         <img src={this.props.logo}/>
                     </div>
-                    <div className="name">
+                    <div className={styles.name}>
                         {this.props.name}
                     </div>
                 </div>
-                <div className="content-body">
-                    <div className="desc">
+                <div className={styles.contentBody}>
+                    <div className={styles.desc}>
                         <span>{this.props.desc}</span>
                     </div>
                 </div>
-                <div className="expand-button" style={{ marginLeft: 'auto', marginRight: 'auto', paddingTop: '5%'}}>
+                <div className={styles.expandButton} >
                     <Button text={"Know More"}/>
                 </div>
             </div>
