@@ -1,6 +1,7 @@
 import React from 'react';
 import {Grid, Box} from '@mui/material'
 import ProjectCard from './ProjectCard';
+import styles from '../../styles/components/projectGrid.module.css';
 
 const ProjectsGrid = () => {
 
@@ -51,7 +52,7 @@ const ProjectsGrid = () => {
 
     var ProjectCardGrid = projects.map((project,ind) => {
         return(
-            <Grid item xs={4} className="item" style={{
+            <Grid item xs={4} className={styles.item} style={{
                 marginLeft:'auto',
                 marginRight:'auto',
                 padding:'48px 16px'

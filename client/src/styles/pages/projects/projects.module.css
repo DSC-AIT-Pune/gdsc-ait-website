@@ -3,31 +3,22 @@
     margin-left:auto;
     margin-right:auto;
 }
-.bannerSection{
-    height:80vh;
-    padding: 6% 2% 2% 2%;
-    margin-left:auto;
-    margin-right:auto;
-}
 
-.bannerContent{
-    display:flex;
-    flex-direction:column;
+.solutionHeading{
+    text-align:center;
 }
-
-.bannerHeading{
-    height: 50%;
-}
-.bannerHeading h1{
+.solutionHeading{
     font-size: 8vh;
-    color: #81C995;
+     font-weight: bold;
+      color: #6199F6;
 }
 
-.bannerSubText{
-    height:50%;
-    padding:48px 48px 0 0;
-}
-.bannerSubText span{
-    color:grey;
-    font-size:24px;
+@media screen and (max-width: 480px) {
+
+    .solution{
+        width:95%;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
 }

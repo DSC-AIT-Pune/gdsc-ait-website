@@ -21,36 +21,6 @@
   width: 100%;
 }
 
-.bannerSection{
-   width: 85%;
-   height: 80vh; 
-   padding: 6% 2% 2% 2%;
-   margin-left: auto;
-   margin-right: auto;
-}
-
-.bannerContent{
-  display: flex;
-  flex-direction: column;
-}
-
-.bannerHeading{
-  height:30%;
-}
-
-.bannerHeading h1{
-  font-size: 8vh;
-   color: #FFC54F;
-}
-.bannerSubText{
-  height:70%;
-  padding:48px 48px 0 0;
-}
-.bannerSubText span{
-   color:grey;
-   font-size:24px;
-}
-
 .cRight {
   display: flex;
   justify-content: center;
@@ -116,4 +86,34 @@
   background: #4285F4;
   color: #fff;
   transition: none;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+ 
+    .team {
+      margin-top: 10%;
+      width: 100%;
+    }
+
+}
+@media screen and (min-width: 480px) and (max-width: 600px) {
+    .team {
+      margin-top: 10%;
+      width: 100%;
+    }
+
+}
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    .team {
+      margin-top: 10%;
+      width: 100%;
+    }
+
+  
 }

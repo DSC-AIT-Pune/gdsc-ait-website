@@ -18,30 +18,32 @@ class Home extends Component {
                     <div className={styles.content}>
                         <div><h1 className={styles.TitleHeading}><span style={{color:"#FF313C"}}>Connect.</span><span style={{color:"#4282EB"}}>Learn.</span><span style={{color:"#43B864"}}>Grow</span></h1></div>
                         <div style={{flexDirection: "row", display:"flex"}}>
-                            <div><h2><span style={{color:"black", fontWeight:"lighter"}}>Powered by</span></h2></div>
-                            <div style={{paddingLeft:"16px"}}><img src={GoogleDevImage} style={{height:"36px", flexDirection: "row", display:"flex"}}/></div>
+                            <div><h2><span className={styles.poweredBy} style={{color:"black", fontWeight:"lighter"}}>Powered by</span></h2></div>
+                            <div style={{paddingLeft:"16px"}}><img className={styles.googleDevImage} src={GoogleDevImage}/></div>
                         </div>
-                        <div><p><span style={{color:"grey",fontSize:"18px", fontWeight:"lighter"}}>{this.state.description}</span></p></div>
+                        <div className={styles.bannerText}><p ><span  style={{color:"grey",fontSize:"18px", fontWeight:"lighter"}}>{this.state.description}</span></p></div>
                         
+                        <div>
+                            <button
+                                className={styles.MemberButton}
+                                onClick={(e) => {
+                                    e.preventDefault();
+                                    window.location.href = "https://gdsc.community.dev/army-institute-of-technology-pune/";
+                                }}
+                            >
+                                Join as Member
+                            </button>
+                            <button
+                                className={styles.DiscordButton}
+                                onClick={(e) => {
+                                    e.preventDefault();
+                                    window.location.href = "https://discord.com/invite/56sCubbrtp";
+                                }}
+                            >
+                                Join Discord
+                            </button>
+                        </div>
                         
-                        <button
-                            className={styles.MemberButton}
-                            onClick={(e) => {
-                                e.preventDefault();
-                                window.location.href = "https://gdsc.community.dev/army-institute-of-technology-pune/";
-                            }}
-                        >
-                            Join as Member
-                        </button>
-                        <button
-                            className={styles.DiscordButton}
-                            onClick={(e) => {
-                                e.preventDefault();
-                                window.location.href = "https://discord.com/invite/56sCubbrtp";
-                            }}
-                        >
-                            Join Discord
-                        </button>
                     </div>
 
                     <div className={styles.HomePageSvg}>

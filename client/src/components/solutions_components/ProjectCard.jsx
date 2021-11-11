@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import styles from '../../styles/components/compactCard.module.css'
-import Button from '../../common/Button'
+import styles from '../../styles/components/projectCard.module.css';
+import Button from '../../common/Button';
 
 class ProjectCard extends Component {
     constructor(props) {
