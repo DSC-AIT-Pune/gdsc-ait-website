@@ -27,8 +27,8 @@ const NavBar = (props) => {
           <NavLink to="/events" className={styles.Link}>
             Events
           </NavLink>
-          <NavLink to="/solutions" className={styles.Link}>
-            Solutions
+          <NavLink to="/programs" className={styles.Link}>
+            Programs
           </NavLink>
           <NavLink to="/videos" className={styles.Link}>
             Videos
@@ -74,7 +74,6 @@ const NavBar = (props) => {
           >
             <BottomNavigationAction style={{padding:"0", minWidth:"20px"}} href="/" icon={<img src="https://img.icons8.com/ios/18/000000/home.png"/>}/>
             <BottomNavigationAction style={{padding:"0", minWidth:"20px"}}  href="/events" icon={<img src="https://img.icons8.com/dotty/18/000000/tear-off-calendar.png"/>} />
-            <BottomNavigationAction style={{padding:"0", minWidth:"20px"}}  href="/solutions" icon={<img src="https://img.icons8.com/dotty/18/000000/idea.png"/>} />
             <BottomNavigationAction style={{padding:"0", minWidth:"20px"}}  href="/videos" icon={<img src="https://img.icons8.com/ios/18/000000/youtube-play--v1.png"/>} />
             <BottomNavigationAction style={{padding:"0", minWidth:"20px"}}  href="/coreTeam" icon={<img src="https://img.icons8.com/dotty/18/000000/user-group-man-woman.png"/>} />
             <BottomNavigationAction style={{padding:"0", minWidth:"20px"}}  href="/contact" icon={<img src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/18/000000/external-message-chat-flatart-icons-outline-flatarticons-4.png"/>} />

@@ -7,12 +7,15 @@ class SocialCard extends Component {
     }
     render(props) { 
         return ( 
-            <div className={styles.card}>
-                <div className={styles.cardContent}>
+            <div className={styles.card} >
+                <div className={styles.cardContent} onClick={(e) => {
+                                e.preventDefault();
+                                window.location.href = this.props.url;
+                            }} >
                     <div className={styles.image}>
                         <img src={this.props.logo} />
                     </div>
-                    <div className={styles.socialText}>
+                    <div className={styles.socialText} >
                         {this.props.text}
                     </div>
                 </div>    

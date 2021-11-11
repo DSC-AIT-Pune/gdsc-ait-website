@@ -1,24 +1,21 @@
 import React, { Component } from 'react';
 import styles from '../../styles/components/videoCard.module.css';
 
-class VideoCard extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {  }
-    }
-    render() { 
+const VideoCard = (props) => {
+        let videoURL = "https://www.youtube.com/embed/"+ props.videoId;
+
         return ( 
         <div className={styles.videoCard}>
-            <iframe width="360" height="180" src="https://www.youtube.com/embed/QQ3Ce0A3p0c" 
+            <iframe width="320" height="180" src= {videoURL}
                 title="YouTube video player" 
                 frameborder="0" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                 allowfullscreen></iframe>
             <div className={styles.contentArea}>
-                <span>{this.props.title}</span>
+                <span>{props.title}</span>
             </div>
         </div> );
-    }
+ 
 }
  
 export default VideoCard;
