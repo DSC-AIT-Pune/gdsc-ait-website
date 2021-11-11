@@ -52,8 +52,9 @@
   .bottomNavigation{
     visibility: collapse;
     box-shadow:0px 0px 80px rgba(0, 0, 0, 0.18);
+    max-width: 100% !important;
+    width: 100% !important;
     position: fixed;
-    width: 100%;
     bottom: 0;
     left: 0;
     z-index: 2;
