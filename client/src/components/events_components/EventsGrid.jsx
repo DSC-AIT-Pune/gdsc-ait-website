@@ -1,6 +1,7 @@
 import React from 'react';
 import {Grid, Box} from '@mui/material'
 import CompactCard from './CompactCard';
+import styles from '../../styles/components/eventsGrid.module.css'
 
 const EventGrid = () => {
 
@@ -51,7 +52,7 @@ const EventGrid = () => {
 
     var CompactCardGrid = events.map((event,ind) => {
         return(
-            <Grid item xs={4} className="item" style={{
+            <Grid item xs={4} className={styles.item} style={{
                 marginLeft:'auto',
                 marginRight:'auto',
                 padding:'48px 16px'

@@ -59,34 +59,36 @@ const Events = () => {
   });
 
   return (
-      <div className="events" style={{width: '90%'}}>
+      <div className={styles.eventSection}>
         <section className={styles.bannerSection}>
-            <Grid container style={{marginLeft:"auto",marginRight:"auto"}}>
-                <Grid item xs={7}>
+            <Grid container lg={12} md={12} xs={12} className={styles.bannerSectionContainer}>
+                <Grid item lg={7} md={12} xs={12}>
                     <img className={styles.bannerImage} src={EventTimelineImage} />
                 </Grid>
-                <Grid item xs={5}>
-                <div className={styles.bannerContent}>           
+                <Grid item lg={5} md={12} xs={12} className={styles.bannerContent}>
                     <div className={styles.bannerHeading}><h1>{"Participate and Engage"}</h1></div>                   
                     <div className={styles.bannerSubText}><span>{"We are team of experienced developers who are interested in giving back to the community"}</span></div>
-                </div>
                 </Grid>
             </Grid>
         </section>
-        <div style={{textAlign:"center"}}>
-            <span style={{fontSize: "8vh", fontWeight: "bold", color: "#6199F6"}}>{"Major Events"}</span>
+        <div className={styles.sectionHeading} >
+            <span >{"Major Events"}</span>
         </div>
+
         <section className={styles.sectionStyle}>
           {MajorEvents}
         </section>
         
+        <div className={styles.sectionHeading} >
+            <span >{"Minor Events"}</span>
+        </div>
         
         <div className={styles.eventTimeline} >
               <div><span className={styles.eventTimelineItems}>{"Previous"}</span></div>
               <div><span className={styles.eventTimelineItems}>{"Current"}</span></div>
               <div><span className={styles.eventTimelineItems}>{"Upcomming"}</span></div>
         </div>
-        <section style={{marginTop:"48px"}}><EventGrid /></section>
+        <section style={{marginTop:"48px", marginBottom:"32px"}}><EventGrid /></section>
         
       </div>
    

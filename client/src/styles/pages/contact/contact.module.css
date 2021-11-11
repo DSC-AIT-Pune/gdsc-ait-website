@@ -1,8 +1,5 @@
 .contactSection {
-    width: 85%;
-    top: 50%;
-    transform: translateY(-50%);
-    position: absolute;
+    margin-top: 5%;
     margin-bottom: auto;
 }
 
@@ -39,7 +36,9 @@
     height: 100%;
     text-align: center;
 }
-
+.leftCol{
+    text-align: center;
+}
 .image{
     height: 60%;
     text-align: center;
@@ -57,4 +56,48 @@
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+}
+
+
+
+@media screen and (max-width: 480px) {
+    .contactSection {
+        margin-top: 10%;
+        margin-bottom: auto;
+    }
+
+    .leftCol{
+        padding: 0px !important;
+        width: 100%;
+    }
+
+    .contactGrid{
+        display: flex;
+        flex-direction: column !important;
+        justify-content: space-evenly;
+        padding: 0px !important;
+    }
+
+    .bannerImage {
+        padding: 0px !important;
+        height: 280px !important;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 600px) {
+    .contactSection {
+        margin-top: 10%;
+        margin-bottom: auto;
+    }
+    .bannerImage {
+        height: 360px !important;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    .contactSection {
+        margin-top: 10%;
+        margin-bottom: auto;
+    }
+    .bannerImage {
+        height: 420px !important;
+    }
 }

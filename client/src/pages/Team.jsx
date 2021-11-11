@@ -4,6 +4,7 @@ import TeamGrid from "../components/teams_components/TeamGrid";
 import TeamImage from '../styles/images/team6.jpg'
 import { Grid } from "@mui/material";
 import styles from "../styles/pages/team/team.module.css"
+import Banner from "../common/Banner";
 
 const MEMBER_URI = "http://localhost:5000/api/v1/member/all"
 
@@ -144,23 +145,11 @@ class Team extends React.Component {
   render(){
     return(
       <div className={styles.team}>
-        <section className={styles.bannerSection}>
-            <Grid container style={{marginLeft:"auto",marginRight:"auto"}}>
-                <Grid item xs={6}>
-                    <img src={TeamImage} style={{height: '420px'}}/>
-                </Grid>
-                <Grid item xs={6}>
-                  <div className={styles.bannerContent}>           
-                      <div className={styles.bannerHeading}>
-                        <h1>{"A community that grows by embracing others"}</h1>
-                      </div>                   
-                      <div className={styles.bannerSubText} >
-                        <span >{"We are team of experienced developers who are interested in giving back to the community"}</span>
-                      </div>
-                  </div>
-                </Grid>
-            </Grid>
-        </section>
+            <Banner image={TeamImage} 
+              color="#6199F6"
+              heading={"A Community that grows by embracing others"}
+              subtext={"We are team of experienced developers who are interested in giving back to the community"}/>
+            
         <div>
             <div>
               <span style={{fontSize: "8vh", fontWeight: "bold", color: "#4285F4"}}>{"Our Team"}</span>

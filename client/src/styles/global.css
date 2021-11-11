@@ -23,6 +23,9 @@
     padding: 0%;
     text-decoration: none;
 }
+html,body{
+  overflow-x: hidden !important;
+}
 
 .page{
   width: 85%;

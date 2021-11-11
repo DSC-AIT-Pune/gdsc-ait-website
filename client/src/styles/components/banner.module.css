@@ -1,0 +1,126 @@
+.bannerSection{
+    
+    padding: 16px;
+    margin-top: 5%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 10%;
+}
+
+
+.bannerGrid{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0 !important;
+   
+}
+
+.bannerImageGrid{
+    padding: 0 !important;
+    text-align: center;
+}
+.bannerImageGrid img{
+    margin-left: auto;
+    margin-left: auto;
+    width: 80%;
+}
+
+.bannerContentGrid{
+    display:flex;
+    flex-direction:column !important;
+    justify-content: space-evenly;
+}
+
+.bannerHeading{
+    padding: 16px;
+    height: 50%;
+}
+.bannerHeading h1{
+    font-size: 8vh;
+    color: #81C995;
+}
+
+.bannerSubText{
+    height:50%;
+    padding:48px 16px;
+}
+.bannerSubText span{
+    color:grey;
+    font-size:24px;
+}
+
+
+
+
+
+@media screen and (max-width: 480px) {
+    .bannerGrid{
+        flex-direction: column !important;
+    }
+
+    .bannerHeading{
+        padding: 16px;
+        height: 50%;
+    }
+    .bannerHeading h1{
+        font-size: 6vh;
+        color: #81C995;
+    }
+    
+    .bannerSubText{
+        height:50%;
+        padding:48px 16px;
+    }
+    .bannerSubText span{
+        color:grey;
+        font-size:24px;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 600px) {
+    
+    .bannerGrid{
+        flex-direction: column !important;
+    }
+    .bannerHeading{
+        padding: 16px;
+        height: 50%;
+    }
+    .bannerHeading h1{
+        font-size: 6vh;
+        color: #81C995;
+    }
+    
+    .bannerSubText{
+        height:50%;
+        padding:48px 16px;
+    }
+    .bannerSubText span{
+        color:grey;
+        font-size:18px;
+    }
+
+}
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    .bannerGrid{
+        flex-direction: column !important;
+    }
+    .bannerHeading{
+        padding: 16px;
+        height: 50%;
+    }
+    .bannerHeading h1{
+        font-size: 6vh;
+        color: #81C995;
+    }
+    
+    .bannerSubText{
+        height:50%;
+        padding:48px 16px;
+    }
+    .bannerSubText span{
+        color:grey;
+        font-size:24px;
+    }
+
+}

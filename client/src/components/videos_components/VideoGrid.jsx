@@ -1,6 +1,7 @@
 import React from 'react';
 import {Grid, Box} from '@mui/material'
 import VideoCard from './VideoCard';
+import styles from '../../styles/components/videoGrid.module.css'
 
 const VideosGrid = () => {
 
@@ -112,7 +113,7 @@ const VideosGrid = () => {
 
     var VideoCardGrid = videos.map((video,ind) => {
         return(
-            <Grid item xs={4} className="item" style={{
+            <Grid item xs={4} className={styles.item} style={{
                 marginLeft:'auto',
                 marginRight:'auto',
                 padding:'48px 16px'
