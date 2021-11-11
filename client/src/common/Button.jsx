@@ -14,7 +14,12 @@ class Button extends Component {
             fontSize: '16px',
             cursor:' pointer',
             borderRadius: '22px'
-        }}>
+        }}
+        onClick={(e) => {
+            e.preventDefault();
+            window.location.href = this.props.url;
+        }}
+        >
             {this.props.text}
         </button> );
     }

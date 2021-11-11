@@ -26,7 +26,7 @@ class CompactCard extends Component {
                     </div>
                 </div>
                 <div className={styles.expandButton} >
-                    <Button text={"Know More"}/>
+                    <Button text={"Know More"} url={this.props.url}/>
                 </div>
             </div>
         </div> );

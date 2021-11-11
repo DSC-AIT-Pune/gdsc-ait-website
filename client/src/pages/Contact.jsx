@@ -46,7 +46,7 @@ const Contact = () => {
 
     var SocialCardGrid = socialSites.map((site,ind) => {
         return(
-            <Grid item xs={4} className={styles.item}>
+            <Grid item lg={4} md={4} xs={6} className={styles.item}>
                 <SocialCard item
                 id={ind}
                 name={site.name}
@@ -60,11 +60,11 @@ const Contact = () => {
 
     return(
         <Box className={styles.contactSection}>
-            <Grid container spacing={2} >
-                <Grid item xs={6} className={styles.leftCol}>
-                    <img src={TeamImage} style={{height: '480px'}}/>
+            <Grid container className={styles.contactGrid} spacing={2} >
+                <Grid item lg={6} md={12} xs={12} className={styles.leftCol}>
+                    <img src={TeamImage} className={styles.bannerImage} style={{height: '480px'}}/>
                 </Grid>
-                <Grid item xs={6} className={styles.rightCol}>
+                <Grid item lg={6} md={12} xs={12} className={styles.rightCol}>
                     {SocialCardGrid}                    
                 </Grid>
             </Grid>
