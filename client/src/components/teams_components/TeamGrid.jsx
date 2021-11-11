@@ -1,10 +1,7 @@
 import React from "react";
 import styles from "../../styles/components/teamGrid.module.css"
 
-const openInNewTab = (url) => {
-    const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
-    if (newWindow) newWindow.opener = null;
-}
+
 
 function TeamGrid(props) {
     return (
@@ -12,25 +9,33 @@ function TeamGrid(props) {
             <div className={styles.card}>
                 <div className={styles.left}>
                     <div className={styles.color}>
-                        <span>
-                            <a href={props.ln} target="_blank" rel="noopener noreferrer">
-                                <span className={styles.smi}>LinkedIn</span>
-                            </a>
-                        </span>
-                        <span>
-                            <a href={props.gh} target="_blank" rel="noopener noreferrer">
+                        <span style={{zIndex:"1000"}} 
+                                onClick={(e) => {
+                                e.preventDefault();
+                                window.location.href = props.ln;
+                            }} target="_blank" rel="noopener noreferrer">
+                            
+                                <span className={styles.smi}>LinkedIn</span>                        </span>
+                        <span style={{zIndex:"1000"}} 
+                                                onClick={(e) => {
+                                e.preventDefault();
+                                window.location.href = props.ln;
+                            }}>
                                 <span className={styles.smi}>Github</span>
-                            </a>
                         </span>
-                        <span>
-                            <a href={props.fb} target="_blank" rel="noopener noreferrer">
+                        <span style={{zIndex:"1000"}} 
+                                                    onClick={(e) => {
+                                    e.preventDefault();
+                                    window.location.href = props.ln;
+                                }}>
                                 <span className={styles.smi}>Facebook</span>
-                            </a>
                         </span>
-                        <span>
-                            <a href={+ props.ig} target="_blank" rel="noopener noreferrer">
+                        <span style={{zIndex:"1000"}} 
+                                                onClick={(e) => {
+                                e.preventDefault();
+                                window.location.href = props.ln;
+                            }}>
                                 <span className={styles.smi}>Instagram</span>
-                            </a>
                         </span>
                     </div>
                 </div>

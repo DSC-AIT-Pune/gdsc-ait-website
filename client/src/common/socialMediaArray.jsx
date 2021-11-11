@@ -18,7 +18,10 @@ const socialMediaArray = () => {
     return (
         <div className="socialMediaLink">
             {socialMedia.map((social_Media) => (
-                <a href={social_Media.url}>
+                <span onClick={(e) => {
+                                e.preventDefault();
+                                window.location.href = props.ln;
+                            }} target="_blank" rel="noopener noreferrer">
                     <img
                         src={social_Media.src}
                         alt={social_Media.id}
