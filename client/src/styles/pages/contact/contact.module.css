@@ -1,6 +1,7 @@
 .contactSection {
     margin-top: 5%;
     margin-bottom: auto;
+
 }
 
 .rightCol {
@@ -65,15 +66,20 @@
         margin-top: 10%;
         margin-bottom: auto;
     }
+    .rightCol {
+        margin-top: 32px !important;
+        margin-bottom: 32px !important
+    }
 
     .leftCol{
         padding: 0px !important;
         width: 100%;
+        visibility: hidden;
     }
 
     .contactGrid{
         display: flex;
-        flex-direction: column !important;
+        flex-direction: column-reverse !important;
         justify-content: space-evenly;
         padding: 0px !important;
     }
@@ -91,6 +97,10 @@
     .bannerImage {
         height: 360px !important;
     }
+    .rightCol {
+        margin-bottom: 64px !important
+    }
+
 }
 @media screen and (min-width: 600px) and (max-width: 900px) {
     .contactSection {
@@ -100,4 +110,8 @@
     .bannerImage {
         height: 420px !important;
     }
+    .rightCol {
+        margin-bottom: 64px !important
+    }
+
 }

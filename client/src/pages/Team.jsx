@@ -19,8 +19,8 @@ class Team extends React.Component {
             gdsc: "https://gdsc.community.dev/u/shekhar/",
             linkedIn: "https://www.linkedin.com/in/the-anton//",
             gitHub: "https://github.com/The-Anton",
-            facebook: "https://www.facebook.com/samik.2025/",
-            instagram: "https://www.facebook.com/profile.php?id=100005728093339",
+            facebook: "https://www.facebook.com/profile.php?id=100005728093339",
+            instagram: "https://www.instagram.com/the_anton.01/",
         }
       },
       {
@@ -28,11 +28,11 @@ class Team extends React.Component {
         position: "Machine Learning",
         image_url: "https://user-images.githubusercontent.com/51144829/139212689-e3fbdd9b-f964-4460-ae38-f48bf9102fb9.jpg",
         social_profiles:{
-            gdsc: "https://gdsc.community.dev/u/mytutb/",
-            linkedIn: "https://www.linkedin.com/in/samik15/",
-            gitHub: "https://github.com/licofiS",
-            facebook: "https://www.facebook.com/samik.2025/",
-            instagram: "https://www.instagram.com/sa.m.ik/",
+            gdsc: "https://gdsc.community.dev/",
+            linkedIn: "https://www.linkedin.com/",
+            gitHub: "https://github.com/",
+            facebook: "https://www.facebook.com/",
+            instagram: "https://www.instagram.com/",
         }
       },
       {
@@ -40,11 +40,11 @@ class Team extends React.Component {
         position: "Managment Head",
         image_url: "https://avatars.githubusercontent.com/u/72295943?v=4",
         social_profiles:{
-            gdsc: "https://gdsc.community.dev/u/mytutb/",
-            linkedIn: "https://www.linkedin.com/in/samik15/",
-            gitHub: "https://github.com/licofiS",
-            facebook: "https://www.facebook.com/samik.2025/",
-            instagram: "https://www.instagram.com/sa.m.ik/",
+            gdsc: "https://gdsc.community.dev/",
+            linkedIn: "https://www.linkedin.com/",
+            gitHub: "https://github.com/",
+            facebook: "https://www.facebook.com/",
+            instagram: "https://www.instagram.com/",
         }
       },
       {
@@ -65,10 +65,10 @@ class Team extends React.Component {
         image_url: "https://avatars.githubusercontent.com/u/54761454?v=4",
         social_profiles:{
             gdsc: "https://gdsc.community.dev/u/mytutb/",
-            linkedIn: "https://www.linkedin.com/in/samik15/",
-            gitHub: "https://github.com/licofiS",
-            facebook: "https://www.facebook.com/samik.2025/",
-            instagram: "https://www.instagram.com/sa.m.ik/",
+            linkedIn: "https://www.linkedin.com/in/chandresh-singh-dev/",
+            gitHub: "https://github.com/The-Pascal",
+            facebook: "https://www.facebook.com/Chandresh.Singh.dev/",
+            instagram: "https://www.instagram.com/chandreshmg/",
         }
       },
       {
@@ -77,10 +77,10 @@ class Team extends React.Component {
         image_url: "https://avatars.githubusercontent.com/u/59963674?v=4",
         social_profiles:{
             gdsc: "https://gdsc.community.dev/u/mytutb/",
-            linkedIn: "https://www.linkedin.com/in/samik15/",
-            gitHub: "https://github.com/licofiS",
-            facebook: "https://www.facebook.com/samik.2025/",
-            instagram: "https://www.instagram.com/sa.m.ik/",
+            linkedIn: "https://www.linkedin.com/in/govind-prasad-sharma-21859a1b0/",
+            gitHub: "https://github.com/Gopu03GPS",
+            facebook: "https://www.facebook.com/govind.prasadsharma.37/",
+            instagram: "https://www.instagram.com/hey_g0pu/?hl=en",
         }
       },
       {
@@ -88,11 +88,11 @@ class Team extends React.Component {
         position: "UI/UX",
         image_url: "https://avatars.githubusercontent.com/u/56212029?v=4",
         social_profiles:{
-            gdsc: "https://gdsc.community.dev/u/mytutb/",
-            linkedIn: "https://www.linkedin.com/in/samik15/",
-            gitHub: "https://github.com/licofiS",
-            facebook: "https://www.facebook.com/samik.2025/",
-            instagram: "https://www.instagram.com/sa.m.ik/",
+            gdsc: "https://gdsc.community.dev/",
+            linkedIn: "https://www.linkedin.com/in//",
+            gitHub: "https://github.com/",
+            facebook: "https://www.facebook.com/",
+            instagram: "https://www.instagram.com/",
         }
       },
       {
@@ -161,7 +161,6 @@ class Team extends React.Component {
           </div>
         <section className={styles.member}>
           {this.state.members.map((member, ind) => {
-            console.log(member);
             return (
               <TeamGrid
                 key={ind}
