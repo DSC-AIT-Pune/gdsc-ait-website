@@ -168,6 +168,9 @@ text-align: center;
     align-items: center !important;
     justify-content: space-evenly;
   }
+  .homePage{
+    margin-left: 0px !important;
+  }
   .TitleHeading {
     font-size: 48px;
   }
@@ -178,8 +181,15 @@ text-align: center;
     height: auto;
     max-height: 80%;
     justify-content: space-evenly;
+    padding-left: 0 !important;
+    margin-left: 0px !important;
+
   }
-  
+  .gdsclogo{
+    width: 72px;
+    height: 42px;
+    margin-top: 10px;
+  }
   .bannerText{
     margin-top: 32px;
     text-align: center;
@@ -206,8 +216,16 @@ text-align: center;
     aspect-ratio: 1/1;
   }
   
-  
-
+  .buttonArea{
+    display:flex;
+    flex-direction: column !important;
+    text-align: center;
+    justify-content: space-between;
+  }
+  .buttonArea Button{
+    font-size: 18px !important;
+    margin: 16px 0;
+  }
   .outerGrid{
     display: flex;
     flex-direction: column !important;
@@ -230,7 +248,14 @@ text-align: center;
 /* ----------------------------------------------- medium screen ----------------------------*/
 
 @media screen and (min-width: 480px) and (max-width: 600px) {
-
+  html,body
+  {
+      width: 100%;
+      height: 100%;
+      margin: 0px;
+      padding: 0px;
+      overflow-x: hidden !important; 
+  }
   .welcome {
     display: flex;
     flex-direction: column-reverse !important;
@@ -297,7 +322,7 @@ text-align: center;
   display:flex;
   flex-direction: row;
   text-align: center;
-  margin-left: 18px;
+  justify-content: space-between;
   }
   
   .buttonArea Button{

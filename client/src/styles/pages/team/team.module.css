@@ -105,6 +105,26 @@
     .member {
       margin-bottom: 48px;
     }
+    
+
+    .bannerHeading{
+      padding: 16px;
+      height: 50%;
+  }
+  .bannerHeading h1{
+      font-size: 3vh !important;
+      color: #81C995;
+  }
+  
+  .bannerSubText{
+      height:50%;
+      padding:48px 16px;
+  }
+  .bannerSubText span{
+      color:grey;
+      font-size:24px;
+  }
+  
 }
 @media screen and (min-width: 480px) and (max-width: 600px) {
     .team {

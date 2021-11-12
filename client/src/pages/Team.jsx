@@ -147,7 +147,7 @@ class Team extends React.Component {
       <div className={styles.team}>
             <Banner image={TeamImage} 
               color="#6199F6"
-              heading={"A Community that grows by embracing others"}
+              heading={"Community that grows by embracing others"}
               subtext={"We are team of experienced developers who are interested in giving back to the community"}/>
             
         <div>

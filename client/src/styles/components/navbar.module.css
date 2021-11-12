@@ -66,7 +66,7 @@ html,body{
   .mobileTopBar{
     visibility: collapse;
     position: absolute;
-    width: 100%;
+    width: 100% !important;
     top: 0;
     left: 0;
     z-index: 2;
