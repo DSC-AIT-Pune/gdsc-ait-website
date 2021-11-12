@@ -174,7 +174,7 @@ text-align: center;
   .content {
     display: flex;
     width: 100% !important;
-    flex-direction: column;
+    flex-direction: column !important;
     height: auto;
     max-height: 80%;
     justify-content: space-evenly;
@@ -297,6 +297,7 @@ text-align: center;
   display:flex;
   flex-direction: row;
   text-align: center;
+  margin-left: 18px;
   }
   
   .buttonArea Button{
