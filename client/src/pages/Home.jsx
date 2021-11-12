@@ -174,20 +174,14 @@ class Home extends Component {
                         <div className={styles.buttonArea}>
                             <Button
                                 className={styles.MemberButton}
-                                onClick={(e) => {
-                                    e.preventDefault();
-                                    window.location.href = "https://gdsc.community.dev/army-institute-of-technology-pune/";
-                                }}
+                                url={"https://gdsc.community.dev/army-institute-of-technology-pune/"}
 
                                 text={"Join as Member"}
                             />
                                 
                             <Button
                                 className={styles.DiscordButton}
-                                onClick={(e) => {
-                                    e.preventDefault();
-                                    window.location.href = "https://discord.com/invite/56sCubbrtp";
-                                }}
+                                url={"https://discord.com/invite/56sCubbrtp"}
                                 text={"Join Discord"}
                             />
                         </div>
