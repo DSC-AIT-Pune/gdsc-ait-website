@@ -89,10 +89,10 @@ class Team extends React.Component {
         image_url: "https://avatars.githubusercontent.com/u/56212029?v=4",
         social_profiles:{
             gdsc: "https://gdsc.community.dev/",
-            linkedIn: "https://www.linkedin.com/in//",
-            gitHub: "https://github.com/",
-            facebook: "https://www.facebook.com/",
-            instagram: "https://www.instagram.com/",
+            linkedIn: "https://www.linkedin.com/in/xerycks/",
+            gitHub: "https://github.com/xerycks",
+            facebook: "https://www.facebook.com/xerycks/",
+            instagram: "https://www.instagram.com/xerycks/",
         }
       },
       {

@@ -149,11 +149,12 @@
     }
     
     .bannerSubText{
-        padding:16px;
+        margin-top: 32px !important;
+        padding:16px !important;
     }
     
     .bannerSubText span{
-         font-size:16px;
+         font-size:24px !important;
     }
    
     .sectionStyle{
