@@ -157,7 +157,7 @@ class Home extends Component {
         return (
             <div className={styles.homePage}>
                 <section className={styles.welcome}>
-                    <Grid lg={6} md={12} xs={12} className={styles.content}>
+                    <Grid lg={6} md={12}  xs={12} className={styles.content}>
                         <div className={styles.gdsaitlogoHeading}>
                             <img src={logo} alt="logo" className={styles.gdsclogo}/> <h1 className={styles.TitleHeading}>GDSC AIT</h1>
                         </div>

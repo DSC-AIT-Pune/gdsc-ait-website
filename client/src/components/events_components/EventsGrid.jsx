@@ -9,7 +9,7 @@ const EventGrid = (props) => {
 
     let CompactCardGrid = events.map((event,ind) => {
         return(
-            <Grid item xs={4} className={styles.item} style={{
+            <Grid item lg={4} md={4} xs={12} className={styles.item} style={{
                 marginLeft:'auto',
                 marginRight:'auto',
                 padding:'48px 16px'
