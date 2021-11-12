@@ -139,17 +139,14 @@
         flex-direction: column-reverse !important;
         justify-content: space-evenly;
     }
-   
-    .bannerImage{
-        width: 100%;
-    }
+
 
     .bannerHeading h1{
         font-size: 4vh;
     }
     
     .bannerSubText{
-        margin-top: 32px !important;
+        margin-top: 48px !important;
         padding:16px !important;
     }
     
@@ -169,7 +166,13 @@
         font-size: 6vh;
 
     }
-
+    .bannerImage{
+        width: 100%;
+        position:absolute;
+        bottom:15%;
+        left:0%;
+        z-index:-1;
+    }
   }
 
 @media screen and (min-width: 480px) and (max-width: 600px) {

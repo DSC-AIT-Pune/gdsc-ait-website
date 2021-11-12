@@ -20,13 +20,17 @@
     margin-left:"auto";
     margin-right:"auto";
     margin: 0;
-    padding: 0%;
     text-decoration: none;
-}
-html,body{
-  overflow-x: hidden !important;
+
 }
 
 .page{
   width: 85%;
+}
+
+
+@media screen and (min-width: 480px)  {
+
+
+
 }

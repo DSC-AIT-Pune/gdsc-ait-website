@@ -66,7 +66,7 @@ html,body{
   .mobileTopBar{
     visibility: collapse;
     position: absolute;
-    width: 100%;
+    width: 100% !important;
     top: 0;
     left: 0;
     z-index: 2;
@@ -85,6 +85,7 @@ html,body{
  
 
   .navbarDesktop {
+
     visibility: collapse;
   }
   .mobileTopBar{
@@ -92,6 +93,7 @@ html,body{
     visibility: visible;
   }
   .bottomNavigation{
+    width: 85% !important;
     visibility: visible;    
   }
 }

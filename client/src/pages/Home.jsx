@@ -157,7 +157,7 @@ class Home extends Component {
         return (
             <div className={styles.homePage}>
                 <section className={styles.welcome}>
-                    <Grid lg={6} md={12} xs={12} className={styles.content}>
+                    <Grid lg={6} md={12}  xs={12} className={styles.content}>
                         <div className={styles.gdsaitlogoHeading}>
                             <img src={logo} alt="logo" className={styles.gdsclogo}/> <h1 className={styles.TitleHeading}>GDSC AIT</h1>
                         </div>
@@ -174,20 +174,14 @@ class Home extends Component {
                         <div className={styles.buttonArea}>
                             <Button
                                 className={styles.MemberButton}
-                                onClick={(e) => {
-                                    e.preventDefault();
-                                    window.location.href = "https://gdsc.community.dev/army-institute-of-technology-pune/";
-                                }}
+                                url={"https://gdsc.community.dev/army-institute-of-technology-pune/"}
 
                                 text={"Join as Member"}
                             />
                                 
                             <Button
                                 className={styles.DiscordButton}
-                                onClick={(e) => {
-                                    e.preventDefault();
-                                    window.location.href = "https://discord.com/invite/56sCubbrtp";
-                                }}
+                                url={"https://discord.com/invite/56sCubbrtp"}
                                 text={"Join Discord"}
                             />
                         </div>
