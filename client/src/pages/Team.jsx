@@ -28,11 +28,11 @@ class Team extends React.Component {
         position: "Machine Learning",
         image_url: "https://user-images.githubusercontent.com/51144829/139212689-e3fbdd9b-f964-4460-ae38-f48bf9102fb9.jpg",
         social_profiles:{
-            gdsc: "https://gdsc.community.dev/",
-            linkedIn: "https://www.linkedin.com/",
+            gdsc: "https://gdsc.community.dev/u/mwt5zp/",
+            linkedIn: "https://www.linkedin.com/in/yash-chaudhary-000a4b16a",
             gitHub: "https://github.com/",
-            facebook: "https://www.facebook.com/",
-            instagram: "https://www.instagram.com/",
+            facebook: "https://www.facebook.com/jaatbuoy",
+            instagram: "https://www.instagram.com/_chacha._.chaudhary_/",
         }
       },
       {
@@ -40,11 +40,11 @@ class Team extends React.Component {
         position: "Managment Head",
         image_url: "https://avatars.githubusercontent.com/u/72295943?v=4",
         social_profiles:{
-            gdsc: "https://gdsc.community.dev/",
-            linkedIn: "https://www.linkedin.com/",
+            gdsc: "https://gdsc.community.dev/u/m2undb/",
+            linkedIn: "https://www.linkedin.com/in/abhishek-kumar-meel",
             gitHub: "https://github.com/",
-            facebook: "https://www.facebook.com/",
-            instagram: "https://www.instagram.com/",
+            facebook: "https://www.facebook.com/abhishekmeel29",
+            instagram: "https://www.instagram.com/abhishek.meel29",
         }
       },
       {
@@ -88,7 +88,7 @@ class Team extends React.Component {
         position: "UI/UX",
         image_url: "https://avatars.githubusercontent.com/u/56212029?v=4",
         social_profiles:{
-            gdsc: "https://gdsc.community.dev/",
+            gdsc: "https://gdsc.community.dev/u/mnc2qq/",
             linkedIn: "https://www.linkedin.com/in/xerycks/",
             gitHub: "https://github.com/xerycks",
             facebook: "https://www.facebook.com/xerycks/",
@@ -112,7 +112,7 @@ class Team extends React.Component {
         position: "Web Technologies",
         image_url: "https://avatars.githubusercontent.com/u/76676218?v=4",
         social_profiles:{
-            gdsc:"String",
+            gdsc:"https://gdsc.community.dev/u/m4u2s2/",
             linkedIn: "www.linkedin.com/in/robinhood00007",
             gitHub: "https://github.com/robin00007",
             facebook:"https://www.facebook.com/robin.choudhary.3745496/",
