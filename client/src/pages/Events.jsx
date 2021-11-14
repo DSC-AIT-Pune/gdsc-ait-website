@@ -148,8 +148,18 @@ const Events = () => {
         
         <div className={styles.sectionHeading} >
             <span >{"Sessions"}</span>
+<<<<<<< HEAD
         </div>
     
+=======
+        </div>
+        
+        <div className={styles.eventTimeline} >
+              <div><span className={styles.eventTimelineItems}>{"Previous"}</span></div>
+              <div><span className={styles.eventTimelineItems}>{"Current"}</span></div>
+              <div><span className={styles.eventTimelineItems}>{"Upcomming"}</span></div>
+        </div>
+>>>>>>> f1b7ed1b0a9d2dba0c8b8eaeaf78ca1dca5bac85
         <section style={{marginTop:"48px", marginBottom:"32px"}}><EventGrid events={minorEvents}/></section>
         
       </div>
