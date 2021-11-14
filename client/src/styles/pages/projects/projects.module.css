@@ -1,0 +1,24 @@
+.solution{
+    width:85%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.solutionHeading{
+    text-align:center;
+}
+.solutionHeading{
+    font-size: 8vh;
+     font-weight: bold;
+      color: #6199F6;
+}
+
+@media screen and (max-width: 480px) {
+
+    .solution{
+        width:95%;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+}

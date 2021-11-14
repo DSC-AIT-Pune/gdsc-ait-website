@@ -1,0 +1,148 @@
+@font-face {
+  font-family: 'GoogleSans';
+  src: local('GoogleSans-Medium'), url(../../fonts/GoogleSans/GoogleSans-Medium-v1.27.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'GoogleSans-MediumItalic';
+  src: local('GoogleSans-MediumItalic'), url(../../fonts/GoogleSans/GoogleSans-MediumItalic-v1.27.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'GoogleSans-Regular';
+  src: local('GoogleSans-Regular'), url(../../fonts/GoogleSans/GoogleSans-Regular-v1.27.ttf) format('truetype');
+}
+
+.team {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  font-family: "GoogleSans-Regular";
+  width: 100%;
+}
+
+.cRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.member {
+  display: flex;
+  width: 75vw;
+  justify-content: center !important;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 48px;
+}
+
+.headings {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 28px;
+}
+
+.centerGrid {
+  padding: 5px;
+}
+
+.yearTimeline{
+  display:flex;
+  flex-direction:row;
+   justify-content: space-evenly;
+   visibility:hidden;
+}
+
+.timelineItems {
+  background: transparent;
+  border: none;
+  margin: 30px auto 0;
+  display: block;
+  font-size: 24px; 
+  color: #6199F6;
+  outline: none;
+  position: relative;
+  transition: 0.3s;
+  padding: 10px;
+}
+
+.timelineItems:before {
+  content: '';
+  border-bottom: 1px solid #4285F4;
+  padding: 0 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 0;
+  transition: 0.3s;
+}
+.timelineItems:hover:before {
+  width: 100%;
+  padding: 0;
+}
+.timelineItems:active {
+  background: #4285F4;
+  color: #fff;
+  transition: none;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+ 
+    .team {
+      margin-top: 10%;
+      width: 100%;
+    }
+    .member {
+      margin-bottom: 48px;
+    }
+    
+
+    .bannerHeading{
+      padding: 16px;
+      height: 50%;
+  }
+  .bannerHeading h1{
+      font-size: 3vh !important;
+      color: #81C995;
+  }
+  
+  .bannerSubText{
+      height:50%;
+      padding:48px 16px;
+  }
+  .bannerSubText span{
+      color:grey;
+      font-size:24px;
+  }
+  
+}
+@media screen and (min-width: 480px) and (max-width: 600px) {
+    .team {
+      margin-top: 10%;
+      width: 100%;
+    }
+    .member {
+      margin-bottom: 48px !important;
+    }
+
+}
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    .team {
+      margin-top: 10%;
+      width: 100%;
+    }
+    .member {
+      margin-bottom: 64px !important;
+    }
+  
+}

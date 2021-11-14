@@ -1,0 +1,442 @@
+.homePage {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 85%;
+  display: flex;
+}
+.welcome {
+  display: flex;
+  width: 100%;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  margin: 48px 0;
+}
+.gdsaitlogoHeading{
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+}
+.gdsclogo{
+  width: 25%;
+}
+
+.TitleHeading {
+  margin-left: 4%;
+  color: #4285F4;
+  font-size: 64px;
+  font-weight: bolder;
+}
+.poweredBy{
+  margin-left: 30%;
+  margin-right: 8px;
+  font-size: 16px;
+  color:grey;
+  line-height:center;
+  font-weight:lighter;
+}
+
+.googleDevImage{
+  line-height:center;
+  height: 24px;
+}
+
+.content {
+  height: auto;
+  max-height: 100%;
+  margin-left: 20px !important;
+}
+
+.bannerText{
+  margin: 48px 0;
+}
+
+.bannerText p{
+  color: lightgrey;
+}
+
+.buttonArea {
+display:flex;
+flex-direction: row;
+text-align: center;
+}
+
+.buttonArea Button{
+  font-size: 18px !important;
+  margin: 0 16px 0 0;
+}
+
+.HomePageSvg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: 50%;
+}
+.svg {
+  width: 85%;
+  aspect-ratio: 1/1;
+}
+
+
+
+
+
+
+.conectLearnGrowSection{
+  margin: 48px 0;
+  width: 100%;
+}
+
+.outerGrid{
+  display: flex;
+  flex-direction: row;
+}
+
+.cardContentArea{
+  padding: 16px;
+  text-align: center;
+  justify-content: space-evenly !important;
+}
+.cardTitle{
+  font-size: 48px;
+}
+.image{
+  margin:32px 0;
+  width: 50%;
+}
+
+.subPoints{
+  margin: 8px;
+}
+.subPoints a{
+  color: grey;
+  font-size: 18px;
+}
+
+.featuredEventsSection{
+  margin: 48px 0;
+  width: 100%;
+}
+.featuredEventsHeading h1{
+  margin: 16px 0;
+  color:#4282EB ;
+  font-size: 48px;
+}
+.featuredEventEnding{
+  text-align:center;
+}
+
+.featuredVideosSection{
+  margin: 48px 0;
+  width: 100%;
+}
+.featuredVideosHeading h1{
+  color:#4282EB ;
+  margin: 16px 0;
+  font-size: 48px;
+}
+.featuredVideosEnding{
+  text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------------- small screen ----------------------------*/
+
+
+@media screen and (max-width: 480px) {
+
+  .welcome {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center !important;
+    justify-content: space-evenly;
+  }
+  .homePage{
+    margin-left: 0px !important;
+  }
+  .TitleHeading {
+    font-size: 48px;
+  }
+  .content {
+    display: flex;
+    width: 100% !important;
+    flex-direction: column !important;
+    height: auto;
+    max-height: 80%;
+    justify-content: space-evenly;
+    padding-left: 0 !important;
+    margin-left: 0px !important;
+
+  }
+  .gdsclogo{
+    width: 72px;
+    height: 42px;
+    margin-top: 10px;
+  }
+  .bannerText{
+    margin-top: 32px;
+    text-align: center;
+  }
+
+  .poweredBy{
+
+    font-size: small;
+  }
+  .googleDevImage{
+    height: 16px;
+    padding: 0 0 0 0;
+  }
+  
+  .HomePageSvg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 90%;
+  }
+  .svg {
+    width: 85%;
+    aspect-ratio: 1/1;
+  }
+  
+  .buttonArea{
+    display:flex;
+    flex-direction: column !important;
+    text-align: center;
+    justify-content: space-between;
+  }
+  .buttonArea Button{
+    font-size: 18px !important;
+    margin: 16px 0;
+  }
+  .outerGrid{
+    display: flex;
+    flex-direction: column !important;
+  }
+
+
+  .featuredEventsHeading {
+    text-align: center;
+  }
+
+  
+  .featuredVideosSection{
+    text-align: center;
+    margin-bottom: 68px !important;
+
+  }
+
+}
+
+/* ----------------------------------------------- medium screen ----------------------------*/
+
+@media screen and (min-width: 480px) and (max-width: 600px) {
+ 
+  .welcome {
+    display: flex;
+    flex-direction: column-reverse !important;
+    align-items: right;
+    justify-content: space-evenly;
+  }
+  .TitleHeading {
+    font-size: 48px;
+  }
+  .content {
+    display: flex;
+    flex-direction: column !important;
+    width: 100% !important;
+    height: auto;
+    max-height: 80%;
+    justify-content: space-evenly;
+  }
+  
+  .gdsaitlogoHeading{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+  }
+  .gdsclogo{
+    width: 25%;
+  }
+  
+  .TitleHeading {
+    margin-left: 4%;
+    color: #4285F4;
+    font-size: 48px;
+    font-weight: bolder;
+  }
+  .poweredBy{
+    margin-left: 30%;
+    margin-right: 8px;
+    font-size: 12px;
+    color:grey;
+    line-height:center;
+    font-weight:lighter;
+  }
+  
+  .googleDevImage{
+    line-height:center;
+    height: 18px;
+  }
+  
+  .content {
+    width: 50%;
+    height: auto;
+    max-height: 100%;
+    margin-left: 20px !important;
+  }
+  
+  .bannerText{
+    margin: 48px 0;
+  }
+  
+  .bannerText p{
+    color: lightgrey;
+  }
+  
+  .buttonArea {
+  display:flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-between;
+  }
+  
+  .buttonArea Button{
+    font-size: 18px !important;
+    margin: 0 16px 0 0;
+  }
+  
+  .HomePageSvg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 80%;
+    margin-bottom:16px;
+  }
+  .svg {
+    width: 85%;
+    aspect-ratio: 1/1;
+  }
+  
+  .outerGrid{
+    display: flex;
+    flex-direction: column !important;
+  }
+
+
+}
+
+/* ----------------------------------------------- large screen ----------------------------*/
+
+@media screen and (min-width: 600px) and (max-width: 950px) {
+  .welcome {
+    display: flex;
+    flex-direction: column-reverse !important;
+    align-items: right;
+    justify-content: space-evenly;
+  }
+  .TitleHeading {
+    font-size: 32px;
+  }
+  .content {
+    display: flex;
+    flex-direction: column !important;
+    width: 100% !important;
+    height: auto;
+    max-height: 80%;
+    justify-content: space-evenly;
+  }
+  .gdsaitlogoHeading{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+  }
+  .gdsclogo{
+    width: 25%;
+  }
+  
+  .TitleHeading {
+    margin-left: 4%;
+    color: #4285F4;
+    font-size: 48px;
+    font-weight: bolder;
+  }
+  .poweredBy{
+    margin-left: 30%;
+    margin-right: 8px;
+    font-size: 16px;
+    color:grey;
+    line-height:center;
+    font-weight:lighter;
+  }
+  
+  .googleDevImage{
+    line-height:center;
+    height: 24px;
+  }
+  
+  .content {
+    width: 50%;
+    height: auto;
+    max-height: 100%;
+    margin-left: 20px !important;
+  }
+  
+  .bannerText{
+    margin: 48px 0;
+  }
+  
+  .bannerText p{
+    color: lightgrey;
+  }
+  
+  .buttonArea {
+  display:flex;
+  flex-direction: row;
+  text-align: center;
+  }
+  
+  .buttonArea Button{
+    font-size: 18px !important;
+    margin: 0 16px 0 0;
+  }
+  
+  .HomePageSvg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 50%;
+  }
+  .svg {
+    width: 85%;
+    aspect-ratio: 1/1;
+  }
+  
+  .image{
+    margin:32px 0;
+    width: 40% !important;
+  }
+  .subPoints a{
+    color: grey;
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,270 @@
+.eventSection{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.bannerSection{
+    width:90%;
+    height:85vh;
+    padding: 6% 2% 2% 2%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.bannerSectionContainer{
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-evenly;
+}
+.bannerImage{
+    width: 60%;
+    position:absolute;
+    bottom:0%;
+    left:0%;
+    z-index:-1;
+}
+
+.bannerContent{
+    display:flex;
+    flex-direction:column !important;
+}
+
+.bannerHeading{
+    height:50%;
+}
+
+.bannerHeading h1{
+    font-size: 8vh;
+     color: #6199F6;
+}
+
+.bannerSubText{
+    height:50%;
+    padding:48px 48px 0 0;
+}
+
+.bannerSubText span{
+    color:grey;
+     font-size:24px;
+}
+.timelineNavStyle{
+    width: 260px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    overflow: hidden;
+    box-shadow: 0 14px 26px rgba(0,0,0,0.04);
+    border-radius: 22px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.timelineNavItemStyle{
+    border-right: 1px solid darkgray;
+}
+
+.sectionStyle{
+    padding: 2% 0 2% 0;
+}
+
+.sectionHeading{
+    margin: 32px 0;
+    text-align:center;
+}
+.sectionHeading span{
+    font-size: 8vh;
+    font-weight: bold;
+    color: #6199F6;
+}
+.eventTimeline{
+    width: fit-content;
+    margin-left:auto;
+    margin-right:auto;
+    display:flex;
+    flex-direction:row;
+    gap:32px;
+    text-align:center;
+}
+
+
+.eventTimelineItems {
+    background: transparent;
+    border: none;
+    margin: 30px auto 0;
+    display: block;
+    font-size: 24px; 
+    color: #6199F6;
+    outline: none;
+    position: relative;
+    transition: 0.3s;
+    padding: 10px;
+  }
+
+  .eventTimelineItems:before {
+    content: '';
+    border-bottom: 1px solid #4285F4;
+    padding: 0 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 0;
+    transition: 0.3s;
+  }
+  .eventTimelineItems:hover:before {
+    width: 100%;
+    padding: 0;
+  }
+  .eventTimelineItems:active {
+    background: #4285F4;
+    color: #fff;
+    transition: none;
+  }
+
+
+
+
+
+  @media screen and (max-width: 480px) {
+
+    .bannerSection{
+        width:95%;
+        margin-top: 10%;
+    }
+
+    .bannerSectionContainer{
+        flex-direction: column-reverse !important;
+        justify-content: space-evenly;
+    }
+
+
+    .bannerHeading h1{
+        font-size: 4vh;
+    }
+    
+    .bannerSubText{
+        margin-top: 48px !important;
+        padding:16px !important;
+    }
+    
+    .bannerSubText span{
+         font-size:24px !important;
+    }
+   
+    .sectionStyle{
+        margin: auto !important;
+        padding: 0;
+    }
+    
+    .sectionHeading{
+        text-align:center;
+    }
+    .sectionHeading span{
+        font-size: 6vh;
+
+    }
+    .bannerImage{
+        width: 100%;
+        position:absolute;
+        bottom:15%;
+        left:0%;
+        z-index:-1;
+    }
+  }
+
+@media screen and (min-width: 480px) and (max-width: 600px) {
+    
+    .bannerSection{
+        width:95%;
+        margin-top: 10%;
+
+    }
+    .bannerSectionContainer{
+        display: flex;
+        flex-direction: column !important;
+        justify-content: space-evenly;
+    }
+   
+    .bannerImage{
+        width: 100%;
+    }
+
+    .bannerHeading {
+        padding: 16px;
+    }
+    .bannerHeading h1{
+        font-size: 6vh;
+    }
+    
+    .bannerSubText{
+        padding:16px;
+    }
+    
+    .bannerSubText span{
+         font-size:18px;
+    }
+   
+    .sectionStyle{
+        margin: auto !important;
+        padding: 0;
+    }
+    
+    .sectionHeading{
+        text-align:center;
+    }
+    .sectionHeading span{
+        font-size: 6vh;
+
+    }
+
+
+}
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    .bannerSection{
+        width:95%;
+        margin-top: 10%;
+
+    }
+    .bannerSectionContainer{
+        display: flex;
+        flex-direction: column !important;
+        justify-content: space-evenly;
+    }
+    .bannerImage{
+        width: 100%;
+
+    }
+
+    .bannerHeading {
+        padding: 16px;
+    }
+    .bannerHeading h1{
+        font-size: 6vh;
+    }
+    
+    .bannerSubText{
+        padding:16px;
+    }
+    
+    .bannerSubText span{
+         font-size:18px;
+    }
+   
+    .sectionStyle{
+        margin: auto !important;
+        padding: 0;
+    }
+    
+    .sectionHeading{
+        text-align:center;
+    }
+    .sectionHeading span{
+        font-size: 6vh;
+
+    }
+
+
+}

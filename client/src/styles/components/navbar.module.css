@@ -1,0 +1,128 @@
+@font-face {
+  font-family: 'GoogleSans';
+  src: local('GoogleSans-Medium'), url(../fonts/GoogleSans/GoogleSans-Medium-v1.27.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'GoogleSans-MediumItalic';
+  src: local('GoogleSans-MediumItalic'), url(../fonts/GoogleSans/GoogleSans-MediumItalic-v1.27.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'GoogleSans-Regular';
+  src: local('GoogleSans-Regular'), url(../fonts/GoogleSans/GoogleSans-Regular-v1.27.ttf) format('truetype');
+}
+.headerNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+  }
+  
+  .navbarDesktop {
+    display: flex;
+    height: 45px;
+    width: 85vw;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+
+  }
+  .logo {
+    height: 75%;
+  }
+  .Link {
+    color: black;
+    font-weight: normal;
+    font-size: 16px;
+  }
+  .NavLinks {
+    display: flex;
+    position: absolute;
+    right:10%;
+    width: 50%;
+    justify-content: space-between;
+  }
+  .bgSvg {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 20vw;
+    width: 30vw;
+  }
+
+  .bottomNavigation{
+    visibility: collapse;
+    box-shadow:0px 0px 80px rgba(0, 0, 0, 0.18);
+    max-width: 100% !important;
+    width: 100% !important;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+  }
+  .mobileTopBar{
+    visibility: collapse;
+    position: absolute;
+    width: 100% !important;
+    top: 0;
+    left: 0;
+    z-index: 2;
+  }
+
+  .appBar{
+    font-family: "GoogleSans-Regular" !important;
+    background-color: white !important;
+    color: black !important;
+    box-shadow: 4px 12px 47px 0 rgb(0 0 0 / 10%) !important;
+  }
+
+
+@media screen and (max-width: 480px) {
+
+ 
+
+  .navbarDesktop {
+
+    display: none !important;
+  }
+  .mobileTopBar{
+    position: absolute;
+    visibility: visible;
+  }
+  .bottomNavigation{
+    width: 85% !important;
+    visibility: visible;    
+  }
+}
+
+
+
+@media screen and (min-width: 480px) and (max-width: 600px) {
+
+
+  .navbarDesktop {
+    display: none !important;
+  }
+  .mobileTopBar{
+    position: absolute;
+    visibility: visible;
+  }
+  .bottomNavigation{
+    visibility: visible;    
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  
+  
+  .navbarDesktop {
+    display: none !important;
+  }
+  .mobileTopBar{
+    position: absolute;
+    visibility: visible;
+  }
+  .bottomNavigation{
+    visibility: visible;    
+  }
+
+}

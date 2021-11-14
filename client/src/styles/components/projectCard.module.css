@@ -1,0 +1,149 @@
+.compactCard {
+    height: 360px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: white;
+    box-shadow: 4px 40px 48px rgb(0 0 0 / 10%);
+    transition: all 0.3s ease-out;
+    transition-duration: 250ms;
+    transition-property: transform, background-color;
+    border-radius: 22px;
+}
+
+.compactCard:hover{
+    transform:  translateY(-5px);
+}
+
+.bannerArea{
+    height: 40%;
+    width: 100%;
+}
+.bannerArea img{
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+    width: 100%;
+    height: 100%;
+}
+.contentArea {
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    padding: 5% 8% 5% 8%;
+}
+.contentHead {
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo img{
+    height: 50px;
+    text-align: center;
+}
+.logo{
+    width: 30%;
+}
+
+.name{
+    width: 70%;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.contentBody{
+    padding-top: 10%;
+    height: 70%;
+    color: grey;
+}
+.desc{
+    text-align: justify;
+}
+
+.expandButton{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+}
+
+
+@media screen and (max-width: 480px) {
+
+    .compactCard {
+        height: 360px;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background: white;
+        box-shadow: 4px 40px 48px rgb(0 0 0 / 10%);
+        transition: all 0.3s ease-out;
+        transition-duration: 250ms;
+        transition-property: transform, background-color;
+        border-radius: 22px;
+    }
+    
+    .compactCard:hover{
+        transform:  translateY(-5px);
+    }
+    
+    .bannerArea{
+        height: 40%;
+        width: 100%;
+    }
+    .bannerArea img{
+        border-top-left-radius: 22px;
+        border-top-right-radius: 22px;
+        width: 100%;
+        height: 100%;
+    }
+    .contentArea {
+        height: 45%;
+        display: flex;
+        flex-direction: column;
+        padding: 5% 8% 5% 8%;
+    }
+    .contentHead {
+        height: 30%;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .logo img{
+        height: 50px;
+        text-align: center;
+    }
+    .logo{
+        width: 30%;
+    }
+    
+    .name{
+        width: 70%;
+        padding-left: auto;
+        padding-right: auto;
+    }
+    
+    .contentBody{
+        padding-top: 10%;
+        height: 70%;
+        color: grey;
+    }
+    .desc{
+        text-align: justify;
+    }
+    
+    .expandButton{
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 5%;
+    }
+    
+
+
+
+}

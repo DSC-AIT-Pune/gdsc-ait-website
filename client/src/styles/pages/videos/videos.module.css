@@ -1,0 +1,50 @@
+.videoSection{
+    width:85%;
+    margin-left:auto;
+    margin-right:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.eventVideoHeading{
+    text-align:center;
+}
+.eventVideoHeading span{
+    font-size: 8vh;
+     font-weight: bold;
+      color: #4285F4;
+}
+
+@media screen and (max-width: 480px) {
+    
+    .videoSection{
+        width:95%;
+        margin-left:auto;
+        margin-right:auto;
+        margin-bottom: 68px !important;
+
+    }
+ 
+    .eventVideoHeading span{
+        font-size: 4vh;
+    }
+    
+
+}
+
+
+@media screen and (min-width: 480px) and (max-width: 600px) {
+    .videoSection{
+        margin-bottom: 68px !important;
+
+    }
+ 
+}
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    .videoSection{
+        margin-bottom: 68px !important;
+
+    }
+ 
+}

@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,700;1,200;1,600&display=swap");
 
 .team {
+<<<<<<< HEAD
   height: auto;
   font-family: "Nunito";
   width: 100%;
@@ -9,6 +10,29 @@
 .member {
   display: flex;
   justify-content: center;
+=======
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  font-family: "Nunito";
+  margin-top: 50px;
+  width: 100%;
+}
+.c-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.member {
+  display: flex;
+  width: 75vw;
+  justify-content: center !important;
+  align-items: center;
+>>>>>>> fa6ced3 (basic pages added)
   flex-wrap: wrap;
 }
 
@@ -45,6 +69,7 @@
   flex-wrap: wrap;
   flex: 1 1 200px;
 }
+<<<<<<< HEAD
 
 .member .container .card {
   position: relative;
@@ -53,6 +78,31 @@
   background: white;
   overflow: hidden;
   box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.25);
+=======
+.c-card {
+  box-shadow: 0px 0px 10px grey;
+  height: 250px;
+  width: 250px;
+  padding: 5px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+c-contentBx h2 {
+  text-align: center;
+}
+
+.member .container .card {
+  position: relative;
+  height: 220px;
+  width: 90%;
+  background: white;
+
+  overflow: hidden;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+>>>>>>> fa6ced3 (basic pages added)
   border-radius: 22px;
 }
 
@@ -174,10 +224,17 @@
   transition-delay: 0.4s;
 } */
 
+<<<<<<< HEAD
 .member .container .card .contentBx .size h3 {
   color: black;
   font-weight: 300;
   font-size: 12px;
+=======
+.member .container .card .contentBx .size h4 {
+  color: black;
+  font-weight: 300;
+  font-size: 10px;
+>>>>>>> fa6ced3 (basic pages added)
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -233,6 +290,11 @@
   padding: 25px;
   line-height: 1.6;
   flex: wrap;
+<<<<<<< HEAD
+=======
+  /* background-color: yellow; */
+
+>>>>>>> fa6ced3 (basic pages added)
   align-items: center;
   justify-content: center;
   margin-top: 10ex;
@@ -240,6 +302,19 @@
   max-height: 800vw;
   max-width: 100%;
 }
+<<<<<<< HEAD
+=======
+.event-card {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 75%;
+  justify-content: center;
+  align-items: center;
+  /* background-color: green; */
+  box-shadow: 0px 0px 10px grey;
+  padding: 10px;
+}
+>>>>>>> fa6ced3 (basic pages added)
 
 .content {
   font-size: 1rem;
@@ -248,6 +323,10 @@
   width: 100%;
   flex-grow: 0;
   flex-shrink: 1;
+<<<<<<< HEAD
+=======
+  font-weight: 100;
+>>>>>>> fa6ced3 (basic pages added)
   flex-basis: 85ex;
 }
 
@@ -334,3 +413,10 @@
   padding: 10px;
   width: 80%;
 }
+<<<<<<< HEAD
+=======
+ 
+
+/* #####################contributer############
+ */
+>>>>>>> fa6ced3 (basic pages added)
