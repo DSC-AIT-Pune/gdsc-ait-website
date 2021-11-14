@@ -248,14 +248,7 @@ text-align: center;
 /* ----------------------------------------------- medium screen ----------------------------*/
 
 @media screen and (min-width: 480px) and (max-width: 600px) {
-  html,body
-  {
-      width: 100%;
-      height: 100%;
-      margin: 0px;
-      padding: 0px;
-      overflow-x: hidden !important; 
-  }
+ 
   .welcome {
     display: flex;
     flex-direction: column-reverse !important;

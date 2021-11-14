@@ -43,7 +43,7 @@ const NavBar = (props) => {
       </div>
 
       <nav className={styles.mobileTopBar}>
-        <Box sx={{ flexGrow: 1 }} >
+        <Box  >
               <AppBar position="static" className={styles.appBar}>
                 <Toolbar>
                   <IconButton
@@ -72,11 +72,11 @@ const NavBar = (props) => {
               setValue(newValue);
             }}
           >
-            <BottomNavigationAction style={{padding:"0", minWidth:"20px"}} href="/" icon={<img src="https://img.icons8.com/ios/18/000000/home.png"/>}/>
-            <BottomNavigationAction style={{padding:"0", minWidth:"20px"}}  href="/events" icon={<img src="https://img.icons8.com/dotty/18/000000/tear-off-calendar.png"/>} />
-            <BottomNavigationAction style={{padding:"0", minWidth:"20px"}}  href="/videos" icon={<img src="https://img.icons8.com/ios/18/000000/youtube-play--v1.png"/>} />
-            <BottomNavigationAction style={{padding:"0", minWidth:"20px"}}  href="/coreTeam" icon={<img src="https://img.icons8.com/dotty/18/000000/user-group-man-woman.png"/>} />
-            <BottomNavigationAction style={{padding:"0", minWidth:"20px"}}  href="/contact" icon={<img src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/18/000000/external-message-chat-flatart-icons-outline-flatarticons-4.png"/>} />
+            <BottomNavigationAction style={{padding:"0"}} href="/" icon={<img src="https://img.icons8.com/ios/18/000000/home.png"/>}/>
+            <BottomNavigationAction style={{padding:"0"}}  href="/events" icon={<img src="https://img.icons8.com/dotty/18/000000/tear-off-calendar.png"/>} />
+            <BottomNavigationAction style={{padding:"0"}}  href="/videos" icon={<img src="https://img.icons8.com/ios/18/000000/youtube-play--v1.png"/>} />
+            <BottomNavigationAction style={{padding:"0"}}  href="/coreTeam" icon={<img src="https://img.icons8.com/dotty/18/000000/user-group-man-woman.png"/>} />
+            <BottomNavigationAction style={{padding:"0"}}  href="/contact" icon={<img src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/18/000000/external-message-chat-flatart-icons-outline-flatarticons-4.png"/>} />
           </BottomNavigation>
         </Box>
       </nav>

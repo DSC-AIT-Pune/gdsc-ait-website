@@ -21,12 +21,11 @@
     margin-right:"auto";
     margin: 0;
     text-decoration: none;
+    border: 1px solid red !important;
 
 }
 
-.page{
-  width: 85%;
-}
+
 
 
 @media screen and (min-width: 480px)  {
