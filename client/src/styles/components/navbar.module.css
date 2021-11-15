@@ -55,8 +55,10 @@
     box-shadow:0px 0px 80px rgba(0, 0, 0, 0.18);
     max-width: 100% !important;
     width: 100% !important;
+    height: 50px;
+    padding: 0 5px;
     position: fixed;
-    bottom: 0;
+    bottom: -5px;
     left: 0;
     z-index: 10;
   }
@@ -90,7 +92,8 @@
     visibility: visible;
   }
   .bottomNavigation{
-    width: 85% !important;
+    max-width: 100% !important;
+    width: 100% !important;
     visibility: visible;    
   }
 }

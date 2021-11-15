@@ -150,11 +150,11 @@ const Events = () => {
             <span >{"Sessions"}</span>
         </div>
         
-        <div className={styles.eventTimeline} >
+       {/* <div className={styles.eventTimeline} >
               <div><span className={styles.eventTimelineItems}>{"Previous"}</span></div>
               <div><span className={styles.eventTimelineItems}>{"Current"}</span></div>
               <div><span className={styles.eventTimelineItems}>{"Upcomming"}</span></div>
-        </div>
+        </div> */} 
         <section style={{marginTop:"48px", marginBottom:"32px"}}><EventGrid events={minorEvents}/></section>
         
       </div>
