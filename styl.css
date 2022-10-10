@@ -1,0 +1,181 @@
+/* {
+margin:0;
+padding:0;
+} */
+header{
+background-image: linear-gradient(rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url('sports1.jpg');
+background-attachment: fixed;
+height: 100vh;
+width: 100%;
+background-size: cover;
+background-position-x: center;
+font-weight: 700;
+
+}
+.nav-menu{
+float: right;
+list-style:none ;
+margin-top:30px ;
+font-weight: 700;
+
+}
+.nav-menu li {
+display: inline-block;
+font-weight: 700;
+
+
+}
+.nav-menu li a {
+color: rgb(8, 34, 119);
+text-decoration: none;
+padding: 8px 20px;
+font-family:"verdana","sans-serif" ;
+font-size: 20px;
+font-weight: 700;
+
+}
+.homebutton a{
+border: 1px solid grey;
+background-color: rgb(108, 103, 136);
+font-weight: 700;
+
+
+
+
+}
+.aboutbutton a{
+    border: 1px solid gray;
+    background-color: rgb(67, 65, 90);
+    font-weight: 700;
+}
+.contactbutton a{
+    border: 1px solid white;
+    background-color: rgb(90, 89, 128);
+    font-weight: 700;
+}
+.tagline {
+    position: absolute;
+    width:1000px ;
+    margin-left:400px;
+    font-weight: 700;
+}
+
+    
+   
+.tagline h1{
+    color: rgb(104, 42, 42);
+    margin-right: 230px;
+    font-weight: 700; 
+
+
+
+    
+    
+    text-align: center;
+    margin-top: 230px;
+    font-size: 75px;
+    align-items: center;
+   
+}
+.logo img{
+    width: 190px;
+    height: 190px;
+     margin-left: 635px;
+    border-radius: 20px;
+    font-weight: 700;
+    align-self: center;
+    margin-top: 15px;
+}
+@media screen and (max-width: 992px){
+    .media-query{ 
+        background-color: bisque;
+        width: 40%;
+
+    }
+
+}
+{
+    margin: 0px;
+    padding: 0px;
+   }
+   header {
+    /* background-image: linear-gradient(rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url('/sports1.jpg'); */
+    height: 70vh;
+    background-size: cover;
+    background-position-x: center;
+    
+    }
+    .main {
+        text-align:center;
+        position: relative;
+        left: 50px;
+        margin-top: 5px;
+    
+
+       
+      
+
+
+
+    }
+   
+   .card{
+    width: 24%;
+    display: inline-block;
+    box-shadow: 2px 2px 20px black;
+    border-radius: 5px; 
+    text align:center ;
+    margin: 2%;
+   
+    }
+   
+   .image img{
+     width: 100%;
+     border-top-right-radius: 5px;
+     border-top-left-radius: 5px;
+     height: 250px;
+     
+   
+    
+    }
+   
+   .title{
+    
+     text-align: center;
+     padding: 10px;
+     
+    }
+   
+   h1{
+     font-size: 20px;
+     text-align: center;
+     height: 20px;
+    }
+   
+   .des{
+     padding: 3px;
+     text-align: center;
+    
+     padding-top: 10px;
+     border-bottom-right-radius: 5px;
+     border-bottom-left-radius: 5px;
+     height: 200px;
+   }
+   button{
+     margin-top: 40px;
+     margin-bottom: 10px;
+     background-color: white;
+     border: 1px solid black;
+     border-radius: 5px;
+     padding:10px;
+   }
+   button:hover{
+     background-color: black;
+     color: white;
+     transition: 0.5s;
+     cursor: pointer;
+   }
+   
+   
+  
+
