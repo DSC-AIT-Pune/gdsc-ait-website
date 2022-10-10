@@ -45,7 +45,9 @@ export default [
             linkedIn: "https://www.linkedin.com/in/dheeraj-bisht-41024b17b/",
             gitHub: "https://github.com/dheeraj120501",
             facebook: "https://www.facebook.com/profile.php?id=100008910195706",
+
             instagram: "https://www.instagram.com/dheeraj_120501/",
+
         }
     },
     {
@@ -70,6 +72,7 @@ export default [
             gitHub: "https://github.com/DSC-AIT-Pune",
             facebook: "https://www.instagram.com/Kavya_chauhan_2511/",
             instagram: "https://www.instagram.com/Kavya_chauhan_2511/",
+
         }
     },
     {
@@ -82,6 +85,7 @@ export default [
             gitHub: "https://github.com/ajaysinghpanwar2002",
             facebook: "https://www.instagram.com/heyajaysingh/",
             instagram: "https://www.instagram.com/heyajaysingh/", 
+
         }
     },
     {
@@ -94,6 +98,7 @@ export default [
             gitHub: "https://github.com/Nymphalys",
             facebook: "https://www.instagram.com/__ladli___/",
             instagram: "https://www.instagram.com/__ladli___/",
+
         }
     },
     {
@@ -106,6 +111,7 @@ export default [
             gitHub: "https://github.com/nikita1222487",
             facebook: "https://www.instagram.com/nikita_kumari1203/",
             instagram: "https://www.instagram.com/nikita_kumari1203/",
+
         }
     },
     {
@@ -118,6 +124,7 @@ export default [
             gitHub: "https://github.com/prikshit4829",
             facebook: "https://www.instagram.com/prikshit4829/",
             instagram: "https://www.instagram.com/prikshit4829/",
+
         }
     },
     {
@@ -130,6 +137,7 @@ export default [
             gitHub: "https://github.com/Abrish-Aadi",
             facebook: "https://www.instagram.com/yacs.xo/",
             instagram: "https://www.instagram.com/yacs.xo/",
+
         }
     },
     {
@@ -142,6 +150,7 @@ export default [
             gitHub: "https://github.com/sahilkamate03",
             facebook: "https://www.instagram.com/sahilkamate_03/",
             instagram: "https://www.instagram.com/sahilkamate_03/",
+
         }
     },
 
