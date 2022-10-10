@@ -19,21 +19,21 @@ function TeamGrid(props) {
                         <span style={{zIndex:"5"}} 
                                                 onClick={(e) => {
                                 e.preventDefault();
-                                window.location.href = props.ln;
+                                window.location.href = props.gh;
                             }}>
                                 <span className={styles.smi}>Github</span>
                         </span>
                         <span style={{zIndex:"15"}} 
                                                     onClick={(e) => {
                                     e.preventDefault();
-                                    window.location.href = props.ln;
+                                    window.location.href = props.fb;
                                 }}>
                                 <span className={styles.smi}>Facebook</span>
                         </span>
                         <span style={{zIndex:"5"}} 
                                                 onClick={(e) => {
                                 e.preventDefault();
-                                window.location.href = props.ln;
+                                window.location.href = props.ig;
                             }}>
                                 <span className={styles.smi}>Instagram</span>
                         </span>
