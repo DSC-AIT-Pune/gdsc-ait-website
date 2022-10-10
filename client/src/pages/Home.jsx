@@ -17,7 +17,7 @@ import FeaturedEvent from "../database/FeaturedEvent";
 class Home extends Component {
   state = {
     description: "Google Developer Student Club, AIT is a community group for students interested in creating solutions using Google technologies.",
-  };
+  }; 
 
   render() {
     return (

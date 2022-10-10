@@ -45,7 +45,7 @@ export default [
             linkedIn: "https://www.linkedin.com/in/dheeraj-bisht-41024b17b/",
             gitHub: "https://github.com/dheeraj120501",
             facebook: "https://www.facebook.com/profile.php?id=100008910195706",
-            instagram: "www.instagram.com/navneet.1901",
+            instagram: "https://www.instagram.com/dheeraj_120501/",
         }
     },
     {
@@ -67,9 +67,9 @@ export default [
         social_profiles: {
             gdsc: "https://gdsc.community.dev/u/mjakxn/",
             linkedIn: "https://www.linkedin.com/in/kavya-chauhan-6290bb239/",
-            gitHub: "https://github.com/The-Pascal",
-            facebook: "https://www.facebook.com/Chandresh.Singh.dev/",
-            instagram: "https://www.instagram.com/chandreshmg/",
+            gitHub: "https://github.com/DSC-AIT-Pune",
+            facebook: "https://www.instagram.com/Kavya_chauhan_2511/",
+            instagram: "https://www.instagram.com/Kavya_chauhan_2511/",
         }
     },
     {
@@ -78,10 +78,10 @@ export default [
         image_url: "https://user-images.githubusercontent.com/92615235/190987740-4cb7dca2-5da0-4d47-b556-4c0e524d5909.png",
         social_profiles: {
             gdsc: "https://gdsc.community.dev/u/mytutb/",
-            linkedIn: "https://www.linkedin.com/in/govind-prasad-sharma-21859a1b0/",
-            gitHub: "https://github.com/Gopu03GPS",
-            facebook: "https://www.facebook.com/govind.prasadsharma.37/",
-            instagram: "https://www.instagram.com/hey_g0pu/?hl=en",
+            linkedIn: "https://www.linkedin.com/in/ajay-singh-654117223/",
+            gitHub: "https://github.com/ajaysinghpanwar2002",
+            facebook: "https://www.instagram.com/heyajaysingh/",
+            instagram: "https://www.instagram.com/heyajaysingh/", 
         }
     },
     {
@@ -92,8 +92,8 @@ export default [
             gdsc: "https://gdsc.community.dev/u/mbranv/",
             linkedIn: "https://www.linkedin.com/in/nymphalys/",
             gitHub: "https://github.com/Nymphalys",
-            facebook: "https://www.facebook.com/govind.prasadsharma.37/",
-            instagram: "https://www.instagram.com/hey_g0pu/?hl=en",
+            facebook: "https://www.instagram.com/__ladli___/",
+            instagram: "https://www.instagram.com/__ladli___/",
         }
     },
     {
@@ -103,9 +103,9 @@ export default [
         social_profiles: {
             gdsc: "https://gdsc.community.dev/u/my8qf3/",
             linkedIn: "https://www.linkedin.com/in/nikita-kumari-658b901b5",
-            gitHub: "https://github.com/Nymphalys",
-            facebook: "https://www.facebook.com/govind.prasadsharma.37/",
-            instagram: "https://www.instagram.com/hey_g0pu/?hl=en",
+            gitHub: "https://github.com/nikita1222487",
+            facebook: "https://www.instagram.com/nikita_kumari1203/",
+            instagram: "https://www.instagram.com/nikita_kumari1203/",
         }
     },
     {
@@ -114,10 +114,10 @@ export default [
         image_url: "https://user-images.githubusercontent.com/92615235/190987724-dbafa198-7a72-4569-b9c2-b12b5d394716.png",
         social_profiles: {
             gdsc: "https://gdsc.community.dev/u/mjvdm5/",
-            linkedIn: "https://www.linkedin.com/in/kavya-chauhan-6290bb239/",
-            gitHub: "https://github.com/The-Pascal",
-            facebook: "https://www.facebook.com/Chandresh.Singh.dev/",
-            instagram: "https://www.instagram.com/chandreshmg/",
+            linkedIn: "https://www.linkedin.com/in/prikshit-sharma-a0204a226/",
+            gitHub: "https://github.com/prikshit4829",
+            facebook: "https://www.instagram.com/prikshit4829/",
+            instagram: "https://www.instagram.com/prikshit4829/",
         }
     },
     {
@@ -127,9 +127,9 @@ export default [
         social_profiles: {
             gdsc: "https://gdsc.community.dev/u/m9ax5w/",
             linkedIn: "https://www.linkedin.com/in/abrish/",
-            gitHub: "https://github.com/Gopu03GPS",
-            facebook: "https://www.facebook.com/govind.prasadsharma.37/",
-            instagram: "https://www.instagram.com/hey_g0pu/?hl=en",
+            gitHub: "https://github.com/Abrish-Aadi",
+            facebook: "https://www.instagram.com/yacs.xo/",
+            instagram: "https://www.instagram.com/yacs.xo/",
         }
     },
     {
@@ -138,10 +138,10 @@ export default [
         image_url: "https://user-images.githubusercontent.com/92615235/190987753-f685d8e5-2f96-42cc-94e3-c616f5379704.png",
         social_profiles: {
             gdsc: "https://gdsc.community.dev/u/mnjpd3/",
-            linkedIn: "https://www.linkedin.com/in/abrish/",
-            gitHub: "https://github.com/Gopu03GPS",
-            facebook: "https://www.facebook.com/govind.prasadsharma.37/",
-            instagram: "https://www.instagram.com/hey_g0pu/?hl=en",
+            linkedIn: "https://www.linkedin.com/in/sahil-kamate-103b87222/",
+            gitHub: "https://github.com/sahilkamate03",
+            facebook: "https://www.instagram.com/sahilkamate_03/",
+            instagram: "https://www.instagram.com/sahilkamate_03/",
         }
     },
 

@@ -101,6 +101,8 @@ text-align: center;
   padding: 16px;
   text-align: center;
   justify-content: space-evenly !important;
+  flex-basis: 33.3333%;
+
 }
 .cardTitle{
   font-size: 48px;
