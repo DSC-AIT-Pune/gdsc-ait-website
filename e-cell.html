@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleee.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>AIT E-cell</title>
+</head>
+<style>
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url(oss.png);
+    background-attachment: fixed;
+    background-size: 100%;
+}
+nav{
+    
+    width: 100%;
+    height: 200px;
+    background-color: rgb(6, 7, 7);
+    overflow: hidden;
+}
+nav ul{
+    margin: 15px;
+    list-style: none;
+    float: right;
+    padding-bottom: 150px;
+}
+nav ul li{
+    margin-top: 0%;
+    margin-right: 15px;
+    display: inline-block;
+}    
+nav ul li a{
+    
+    font-size: 22px;
+    text-decoration: none;
+    padding: 25px;
+    text-align: center;
+    color: #fff;
+    display: block;
+    font-weight: 700;
+   
+}
+.logo{
+    height: 15px;
+    width: 15px;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+.open{
+    margin-left: 25%;
+    color: red;
+    font-size: 2em;
+}
+
+.container
+{
+    position: relatives;
+    width: 1200px;
+    height: 300px;
+    margin:  240px auto;
+}
+.container .box
+{
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(400px - 30px);
+    background: #000;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.container .box .icon
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    background: #f00;
+    transition: 0.5s;
+    z-index: 1;
+}
+.container .box:hover .icon
+{
+    top: 20px;
+    left: calc(50% - 40px);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.container .box .icon .fa
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 80px;
+    transition: 0.5s;
+    color: #fff;
+}
+.container .box:hover .icon .fa
+{
+    font-size: 40px;
+}
+.container .box:hover .content
+{
+    top: 100px;
+}
+.container .box .content
+{
+    position: absolute;
+    top: 100px;
+    height: calc(100% - 100px);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: 0.5s;
+
+}
+.container .box .content h3
+{
+    margin: 0 0 10px;
+    padding: 0;
+    font-size: 24px;
+    color: white;
+}
+.container .box .content ul
+{
+    margin: 0 0 10px;
+    padding: 0;
+    font-size: 24px;
+    color: white;
+}
+.container .box .content p
+{
+    margin: 0;
+    padding: 0;
+    color: white;
+} 
+.container .box .content .media h2
+{
+    margin: 0 0 10px;
+    margin-left: 100px;
+    margin-bottom: 25px;
+    padding: 5px;
+    font-size: 30;
+    color: white;
+}
+.container .box .content .media h3{
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.container .box:nth-child(1) .icon
+{
+    background: #bcbe22;
+}
+.container .box:nth-child(1)  
+{
+    background: #a4af3b;
+}
+.container .box:nth-child(2) .icon
+{
+    background: #d03852
+}
+.container .box:nth-child(2)  
+{
+    background: #f54967
+}
+.container .box:nth-child(3) .icon
+{
+    background: #23798e;
+}
+.container .box:nth-child(3)  
+{
+    background: #328fa5;
+}
+.jio{
+    font-size: 50px;
+}
+.column1{
+    font-size: 50px;
+    text-align: center;
+    background-color: aliceblue;
+    margin-left: 650px;
+    
+    color: #000;
+    font-weight: 700;
+    height: 100px;
+    width: 200px;
+    border-color: palevioletred;
+    border-radius: 20px;
+    border-color: #328fa5;
+}
+.column2{
+    font-size: 50px;
+    text-align: center;
+    background-color: aliceblue;
+    color: #222;
+    margin-top: 10px;
+    font-weight: 700;
+    height: 100px;
+    width: 200px;
+    margin-left: 650px;
+    border-color: palevioletred;
+    border-radius: 20px;
+    border-color: #328fa5;
+    
+    
+}
+    
+
+</style>
+<body>
+    <div class="nav">
+        
+        <div class="logo"><img src="images.jpg" width="100" height="100"></div>
+        <div class="open"><h1>Welcome To E - Cell Club</h1></div>
+        <div class="icon">
+        
+            <div class="column1">
+                <div><a href="http://aitoss.club/">Visit Us</a></div>
+            </div>
+            <div class="column2">
+                <div><a href="index.html">Home</a></div>
+            </div>
+      
+        
+    </div>
+    <div class="container">
+        <div class="box">
+            <div class="icon"><i class="fa fa-search" aria-hidden="true"></i></div>
+            <div class="content">
+                <h3>What is E-cell></h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae maiores tempora deserunt aliquam nobis temporibus porro harum nihil cum, eius facilis eveniet tempore dolorem illo cupiditate laudantium accusantium autem quia eaque quos excepturi. Ea vel beatae dicta libero temporibus commodi dolorem veniam hic minima aperiam! </p>
+            </div>
+        </div> 
+        <div class="box">
+            <div class="icon"><i class="fa fa-puzzle-piece" aria-hidden="true"></i></div>
+            <div class="content">
+                <h3>OUR MAJOR EVENTS</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, blanditiis modi optio illo velit molestiae temporibus pariatur atque! Voluptatum vero qui necessitatibus, quas voluptatem similique voluptate autem iure asperiores at.</p>
+                
+                
+                </div>
+        </div><div class="box">
+            <div class="icon"><i class="fa fa-users" aria-hidden="true"></i></div>
+            <div class="content">
+                <div class="media">
+                    <h2>Reach Us</h2>
+                    <h3><a href="https://www.instagram.com/oss_club_ait/?hl=en"> <i class="fa fa-instagram" aria-hidden="true"></i>   Instagram </a></h3>
+                    <h3><a href="https://www.facebook.com/groups/ossclubait/"> <i class="fa fa-facebook" aria-hidden="true"></i>    Facebook</a></3>
+                    <h3><a href="https://in.linkedin.com/in/oss-club-22569b9b"><i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn</a> </h3>
+                    <h3><a href="https://www.youtube.com/channel/UC76nIMy4neDdtu2PaLKCYSg"><i class="fa fa-youtube" aria-hidden="true"></i> Youtube</a> </h3>
+                </div>  
+            </div>
+        </div>
+         
+        
+    </div>
+    
+</body>
+</html>
